@@ -1,0 +1,121 @@
+(footprint "RGB_LED_2020"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "31968ea8-acb2-45ec-8ff7-8d2d6fd1f74e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RGB_LED_2020"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "916fb636-15c9-42c9-8a98-30b9830ff9c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1ace7f9-a862-4e42-ad12-71cf991ba498")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f99e8c7-9b7c-46d8-81f4-5783098e3fd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.1 -1)
+		(end 1.1 1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "87833043-3562-43c8-a2f9-9aa17653f78b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "84047fb1-1d68-4ad6-8f29-b17471d15727")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.65 0.6)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "4b94d418-bb7c-49bb-8dbe-920e3ca83039")
+	)
+	(pad "2" smd roundrect
+		(at 0.65 -0.6)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "628dddef-5f93-4d89-bd33-5ced7afd843c")
+	)
+	(pad "3" smd roundrect
+		(at -0.65 -0.6)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "817056c7-c15d-4c6b-b813-aeffdb2116f4")
+	)
+	(pad "4" smd roundrect
+		(at -0.65 0.6)
+		(size 0.8 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.05)
+		(uuid "72b68fec-cbb1-4f11-bad4-96982ab76a47")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/3D/SK6812-EC20.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
+	)
+)
