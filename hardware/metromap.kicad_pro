@@ -58,6 +58,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2,
+          "via_gap": 0.2,
+          "width": 0.28
         }
       ],
       "drc_exclusions": [],
@@ -197,7 +202,10 @@
         0.0,
         0.15,
         0.2,
-        0.3
+        0.28,
+        0.3,
+        0.6,
+        0.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -579,9 +587,22 @@
         "clearance": 0.15,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.15,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.28,
+        "name": "USB2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.28,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -596,6 +617,10 @@
       {
         "netclass": "Power",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "USB2",
+        "pattern": "*USB*"
       }
     ]
   },
@@ -603,7 +628,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Output/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -859,7 +884,7 @@
         "uuid": "933613dd-e874-4353-aa56-f5aedaa7dcf5"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP3-4,U2",
     "variants": []
   },
   "sheets": [
