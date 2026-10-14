@@ -704,12 +704,6 @@
 		(uuid "00561f98-9cdb-43f6-9186-1f945e79df10")
 	)
 	(junction
-		(at 264.16 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01585c3f-4c48-40db-a88c-4ade0b864f1e")
-	)
-	(junction
 		(at 93.98 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -726,12 +720,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02a5cc16-fe80-4656-9a27-52e5dc31d9c5")
-	)
-	(junction
-		(at 341.63 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "032176b6-fc4f-428d-8b53-e9b693492c17")
 	)
 	(junction
 		(at 55.88 15.24)
@@ -752,28 +740,22 @@
 		(uuid "0432f939-52b0-43a9-90b8-7a67dad06f94")
 	)
 	(junction
+		(at 303.53 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "048b6179-7fa2-4d45-a853-285a281025b2")
+	)
+	(junction
 		(at 93.98 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "051ebb7a-1199-4282-b45f-74bb5296d0d1")
 	)
 	(junction
-		(at 74.93 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "058b238e-b4a1-438b-bf5d-2c85e849b305")
-	)
-	(junction
 		(at 113.03 0)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06c0c401-b2a9-4aca-a4b7-adb8f4118057")
-	)
-	(junction
-		(at 302.26 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0726a95f-5927-4c7f-802a-63a26e8cc3cb")
 	)
 	(junction
 		(at 93.98 66.04)
@@ -800,10 +782,10 @@
 		(uuid "0915f810-45e7-4b37-83c2-d74e82e2c6f4")
 	)
 	(junction
-		(at 207.01 163.83)
+		(at 322.58 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0957bd99-42e2-4064-a763-fafcb6339610")
+		(uuid "0a5c91b4-b6a4-4bc6-972b-1a3875e32479")
 	)
 	(junction
 		(at 151.13 0)
@@ -824,10 +806,10 @@
 		(uuid "0b1cc6ab-620b-405e-8730-d39d096b16f5")
 	)
 	(junction
-		(at 245.11 139.7)
+		(at 322.58 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0fa42982-9076-49c4-8ee8-a959adc31efd")
+		(uuid "0ddcbea4-454a-44e6-875e-5e7b7545afec")
 	)
 	(junction
 		(at 170.18 99.06)
@@ -852,12 +834,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15a79922-fb10-4519-bea7-2eb3ad84ffde")
-	)
-	(junction
-		(at 170.18 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16236554-e7c7-4058-8fba-a98a08734625")
 	)
 	(junction
 		(at 154.94 245.11)
@@ -890,34 +866,22 @@
 		(uuid "185e6e45-18d8-4a7d-bc5b-0286d95895c1")
 	)
 	(junction
-		(at 132.08 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "198cf42a-ffcb-4934-895f-eb0845893718")
-	)
-	(junction
 		(at 227.33 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1afa55a5-cf5b-484c-aad5-7eac253c60e9")
 	)
 	(junction
-		(at 170.18 179.07)
+		(at 341.63 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1c19dd72-af56-4203-aa86-9081653b3bb4")
+		(uuid "1ca87cc0-5987-4b1f-87e6-9b0391347173")
 	)
 	(junction
 		(at 132.08 15.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1cb3202d-e40d-4f0b-a807-9a0474549119")
-	)
-	(junction
-		(at 93.98 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1e016ba4-dcf7-44a2-aa07-d2131cdeb25e")
 	)
 	(junction
 		(at 132.08 -50.8)
@@ -932,6 +896,12 @@
 		(uuid "233e4b27-99ed-4598-a738-caadd4aeaaf8")
 	)
 	(junction
+		(at 284.48 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "248e191b-ad39-45d7-a4ff-7606aab213b2")
+	)
+	(junction
 		(at 398.78 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -944,6 +914,12 @@
 		(uuid "260358df-0c6a-486c-976d-2384a933d7e1")
 	)
 	(junction
+		(at 151.13 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26126e95-12d6-45a6-9d6c-79b65ff55916")
+	)
+	(junction
 		(at 341.63 -33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -954,12 +930,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26abaf22-753d-4af2-b3ce-17422fcc0902")
-	)
-	(junction
-		(at 317.5 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27a8b7e2-0d86-4945-9867-1582ed61d2ad")
 	)
 	(junction
 		(at 113.03 -17.78)
@@ -998,18 +968,6 @@
 		(uuid "291ad923-fb6e-4dc9-981e-5d6f36c704bd")
 	)
 	(junction
-		(at 207.01 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "298ea78f-b73e-4c91-baa2-ae4bb3f7f230")
-	)
-	(junction
-		(at 151.13 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29c023be-531b-4e7a-afed-37abd96dca03")
-	)
-	(junction
 		(at 256.54 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1032,6 +990,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c7f03c6-02d5-4b71-b85a-ff5f55501923")
+	)
+	(junction
+		(at 246.38 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c9c0ce2-cce2-4c4e-809c-02a790a61971")
 	)
 	(junction
 		(at 378.46 245.11)
@@ -1062,6 +1026,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31349225-4d60-481c-890f-09a06a2ab75b")
+	)
+	(junction
+		(at 170.18 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32606364-4972-4d7c-9600-672175de28f6")
 	)
 	(junction
 		(at 170.18 -17.78)
@@ -1106,10 +1076,10 @@
 		(uuid "3810d7ed-60cd-40f1-b90e-fe3780273916")
 	)
 	(junction
-		(at 340.36 179.07)
+		(at 303.53 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "38e35b0c-29f8-435f-9a63-65498374abc6")
+		(uuid "393b1229-09ac-4307-b0a8-2e8fd250ac9d")
 	)
 	(junction
 		(at 74.93 -17.78)
@@ -1118,10 +1088,10 @@
 		(uuid "39934755-8f2c-4bc8-9d69-43012e5aa17d")
 	)
 	(junction
-		(at 265.43 48.26)
+		(at 227.33 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3b053b27-9f9b-4120-8042-262ff150bc2f")
+		(uuid "39f20fdf-b131-4aeb-8110-fc7a6fa734cb")
 	)
 	(junction
 		(at 113.03 66.04)
@@ -1154,12 +1124,6 @@
 		(uuid "3f26bf96-e170-4914-884a-4ed4b6d246c4")
 	)
 	(junction
-		(at 226.06 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f3ecd16-e1df-492c-b73f-7a19edcfaaac")
-	)
-	(junction
 		(at 132.08 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1172,22 +1136,10 @@
 		(uuid "418080e4-bd06-434f-b320-575ab94c89b0")
 	)
 	(junction
-		(at 93.98 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4269d305-771f-4a44-9390-0dd194671035")
-	)
-	(junction
 		(at 74.93 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43accf43-79ad-4082-a828-ed5d9210902a")
-	)
-	(junction
-		(at 208.28 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44afbc27-e2ef-4b38-ad18-fcf015e5cee6")
 	)
 	(junction
 		(at 297.18 234.95)
@@ -1196,28 +1148,10 @@
 		(uuid "44d952af-2ef8-4df4-8833-d9f5cf193e0c")
 	)
 	(junction
-		(at 93.98 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44e20357-5f06-42b1-bc76-e15af7b76571")
-	)
-	(junction
-		(at 227.33 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45b9a80c-236b-49d1-97bf-3df30778a7b2")
-	)
-	(junction
 		(at 93.98 -33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47339bac-38f0-4289-a202-ba46b0c856de")
-	)
-	(junction
-		(at 264.16 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "49eb3351-62e3-4827-a598-42d18e674655")
 	)
 	(junction
 		(at 378.46 234.95)
@@ -1230,12 +1164,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4bfa0b65-7c7e-4635-9647-6513e03c3785")
-	)
-	(junction
-		(at 322.58 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d66345e-c8a3-4926-8fb8-c7fd73fc8797")
 	)
 	(junction
 		(at 303.53 -50.8)
@@ -1298,34 +1226,10 @@
 		(uuid "56f84bf2-9f56-4435-a3fb-8bdffef20437")
 	)
 	(junction
-		(at 55.88 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "573c90b7-f300-4603-9880-aab0e8082cbc")
-	)
-	(junction
-		(at 187.96 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5790aaf2-c17e-477e-9f22-a7b27993e8b8")
-	)
-	(junction
 		(at 132.08 0)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58055a90-cb3f-4220-becd-bcf2f93c2d05")
-	)
-	(junction
-		(at 279.4 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "583840e7-1e25-476d-8979-6fe6b339b00d")
-	)
-	(junction
-		(at 283.21 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59437187-11d4-41d8-8da7-2b97d2444465")
 	)
 	(junction
 		(at 170.18 0)
@@ -1346,12 +1250,6 @@
 		(uuid "5a1fcb7b-dc3e-4f04-9687-1e9a26c30310")
 	)
 	(junction
-		(at 298.45 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b27aa50-534c-42b1-8df2-8dd4d38120c6")
-	)
-	(junction
 		(at 408.94 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1364,34 +1262,22 @@
 		(uuid "5c0cb3a4-746d-4ebc-929c-c7a3e625a0d2")
 	)
 	(junction
-		(at 260.35 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c21b2bc-e9e4-4ebd-b6ea-cb424d36c02a")
-	)
-	(junction
 		(at 175.26 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ccb0ee3-bab3-4a27-ac36-382c63b8cd2d")
 	)
 	(junction
-		(at 303.53 48.26)
+		(at 208.28 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5e89ca2f-bbd1-4c04-b1c3-0d2a79bec50a")
+		(uuid "5df221c1-db7f-42aa-81cb-40929a079f4c")
 	)
 	(junction
 		(at 151.13 -17.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5eab751d-f9f3-4d4c-8045-93a0c96aa89d")
-	)
-	(junction
-		(at 151.13 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f6d1138-ecbd-45f5-9e8c-4c4a7b68ed61")
 	)
 	(junction
 		(at 195.58 245.11)
@@ -1448,10 +1334,10 @@
 		(uuid "68e9dff4-434c-4584-8862-b1882b95d512")
 	)
 	(junction
-		(at 260.35 201.93)
+		(at 341.63 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6d3f3e3c-ec1c-4bac-8a92-c55ef4e96e69")
+		(uuid "6ebe506b-245b-45b0-a7d5-e2d4e9468ba4")
 	)
 	(junction
 		(at 55.88 48.26)
@@ -1490,12 +1376,6 @@
 		(uuid "7206c5d6-9acd-45a1-8d82-56d4cc29f639")
 	)
 	(junction
-		(at 245.11 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72fa8844-aed6-4d18-9943-f6f82bcdf640")
-	)
-	(junction
 		(at 429.26 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1508,28 +1388,16 @@
 		(uuid "733694d8-5583-4a60-97c3-bc511d61a156")
 	)
 	(junction
-		(at 283.21 179.07)
+		(at 170.18 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "736b6638-9754-4704-a5dc-3994fa869d13")
+		(uuid "73fdcf1e-ba86-42a8-9144-6e406a7d8815")
 	)
 	(junction
 		(at 236.22 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "775f71d4-0c7f-4595-aab4-736736b8812f")
-	)
-	(junction
-		(at 208.28 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a83079c-f62a-482f-ac30-6d17ed037e2f")
-	)
-	(junction
-		(at 189.23 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ac1bb75-a144-4ab6-b5e0-9324ded18157")
 	)
 	(junction
 		(at 322.58 -17.78)
@@ -1556,18 +1424,6 @@
 		(uuid "7cf9e148-0e4a-4ad9-80e1-62c4dbf91fed")
 	)
 	(junction
-		(at 322.58 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d76580c-2934-4f14-9141-751f2ae56e09")
-	)
-	(junction
-		(at 187.96 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ddd9da7-8366-461e-aa17-4cf3842fbfd3")
-	)
-	(junction
 		(at 208.28 0)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1584,12 +1440,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "81c3c79f-b668-41ea-a997-48f88cf21c0d")
-	)
-	(junction
-		(at 284.48 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "827fd96a-aaa9-4eb3-8a38-de02535ecf43")
 	)
 	(junction
 		(at 189.23 -17.78)
@@ -1616,34 +1466,22 @@
 		(uuid "854bd5f3-3ce0-4299-a44c-e1e4828ee32c")
 	)
 	(junction
-		(at 189.23 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8816b87c-05f0-4461-8ccb-32e1dbda84e1")
-	)
-	(junction
 		(at 104.14 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88ff5939-d798-45ad-9ba9-94e4ea9691ae")
 	)
 	(junction
+		(at 151.13 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a71ed73-f929-49ee-b9e1-444652c91607")
+	)
+	(junction
 		(at 266.7 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b4350ae-979b-4904-b0c3-793f606ea05b")
-	)
-	(junction
-		(at 317.5 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d0bd04d-c424-4703-9c88-86f06a5ca3d9")
-	)
-	(junction
-		(at 170.18 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d81b83c-ac9e-41f6-9957-fbf0e34e971e")
 	)
 	(junction
 		(at 276.86 245.11)
@@ -1694,12 +1532,6 @@
 		(uuid "94b6ea18-37f5-47c2-b33e-b4648813d295")
 	)
 	(junction
-		(at 93.98 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96eb4e32-c8ed-4e37-89ae-8a06d5865ea3")
-	)
-	(junction
 		(at 93.98 -17.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1712,22 +1544,16 @@
 		(uuid "9820e834-63a0-4c43-b984-95e810a30f08")
 	)
 	(junction
-		(at 170.18 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "991b1fe9-76c8-4b65-a9cd-62c93592158b")
-	)
-	(junction
-		(at 303.53 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "996d5e64-3573-414e-ab32-940b936f1e78")
-	)
-	(junction
 		(at 246.38 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99d3ecd1-4e48-4777-bb71-d3a27871f65c")
+	)
+	(junction
+		(at 189.23 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ac7db0e-b568-4408-a790-85129eae9c3d")
 	)
 	(junction
 		(at 53.34 234.95)
@@ -1742,12 +1568,6 @@
 		(uuid "9b189066-9617-4a70-86fa-452e059e532c")
 	)
 	(junction
-		(at 170.18 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b37c412-21b1-4c29-a10a-9b3cc9a1c45c")
-	)
-	(junction
 		(at 170.18 -33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1760,22 +1580,10 @@
 		(uuid "9d3f310c-c2d0-44d8-b34f-ccf6459c90e0")
 	)
 	(junction
-		(at 151.13 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e226f96-f06b-4c58-a943-a942e4d13597")
-	)
-	(junction
 		(at 246.38 -50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f11adcc-2837-46e9-980d-822d9ac7ab64")
-	)
-	(junction
-		(at 227.33 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f6afaa6-b317-4dfc-9fc5-4011e9a9ac9d")
 	)
 	(junction
 		(at 246.38 81.28)
@@ -1850,12 +1658,6 @@
 		(uuid "a57b5c39-ff48-462a-af77-1ac4aab1a170")
 	)
 	(junction
-		(at 341.63 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5be3da4-f8ab-4245-9df4-24a4ded7d22c")
-	)
-	(junction
 		(at 208.28 -33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1886,16 +1688,22 @@
 		(uuid "ad48d8c7-f3ba-4bd8-aabc-8fb3786c86bf")
 	)
 	(junction
+		(at 284.48 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adff816e-f4cb-4f3c-8bab-77990729bbbc")
+	)
+	(junction
+		(at 208.28 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af206d02-dd0d-41f8-8b5a-2aa7ef93c20b")
+	)
+	(junction
 		(at 74.93 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af33a86e-8776-48fa-80bd-82a943ce7ca5")
-	)
-	(junction
-		(at 132.08 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1c0771f-9fb0-40aa-bf70-1626dfc309a1")
 	)
 	(junction
 		(at 322.58 15.24)
@@ -1910,34 +1718,16 @@
 		(uuid "b2c30d9d-e157-4680-bf03-49f80e7a97d5")
 	)
 	(junction
-		(at 170.18 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2df5ff0-599c-45fb-930f-adf5350b5b51")
-	)
-	(junction
 		(at 63.5 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b306efc3-096d-4491-b137-c2be8669f7f3")
 	)
 	(junction
-		(at 279.4 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b33febaa-f502-4e42-9b77-d6a76bea050c")
-	)
-	(junction
 		(at 246.38 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3507561-ea52-4514-9722-2264d2c5f639")
-	)
-	(junction
-		(at 93.98 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3add161-9839-42db-9e2e-9e9969c8627f")
 	)
 	(junction
 		(at 113.03 81.28)
@@ -1974,6 +1764,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba2d5c86-cacb-4f1e-ab0b-960d4e494d92")
+	)
+	(junction
+		(at 265.43 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba6c23be-95bf-4655-8b82-c57dae78e0c5")
+	)
+	(junction
+		(at 189.23 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bae8eefa-31f9-4dcd-ac69-533dd1c76b0d")
 	)
 	(junction
 		(at 151.13 -33.02)
@@ -2018,18 +1820,6 @@
 		(uuid "bd2474d0-4b95-4b8e-aa0f-cc405b3fe50e")
 	)
 	(junction
-		(at 170.18 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "beda0ac6-03ea-4e41-8cdb-ddfd08a1f78e")
-	)
-	(junction
-		(at 284.48 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf2e7757-f489-4658-8b7a-6851d4dfe163")
-	)
-	(junction
 		(at 189.23 -50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2060,12 +1850,6 @@
 		(uuid "c307cdb4-b705-405f-9c90-0200ab143bcc")
 	)
 	(junction
-		(at 246.38 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c35c7c39-1232-4d9c-88a6-cea126ccb11a")
-	)
-	(junction
 		(at 276.86 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2076,12 +1860,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5127174-335d-47e5-b207-47b9ffa1030f")
-	)
-	(junction
-		(at 340.36 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c56466f3-8915-4d74-8e80-215e9bca7c9d")
 	)
 	(junction
 		(at 151.13 33.02)
@@ -2120,10 +1898,16 @@
 		(uuid "c8637bb8-aada-441e-9725-bfe1b3b58c54")
 	)
 	(junction
-		(at 93.98 179.07)
+		(at 227.33 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ca9226ae-1752-4fdb-be5e-2c704f1e06d3")
+		(uuid "c87e9312-8b0f-46d4-90d2-ce72f69f3512")
+	)
+	(junction
+		(at 265.43 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8cfc319-7deb-41f0-b656-72080080f6b1")
 	)
 	(junction
 		(at 53.34 245.11)
@@ -2138,34 +1922,16 @@
 		(uuid "cc9d18f7-2a0c-4e95-8454-a94c55ff9819")
 	)
 	(junction
-		(at 246.38 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd949662-255a-4163-ae23-acd37f2f5000")
-	)
-	(junction
 		(at 226.06 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1a5d3b2-0a33-40e4-a396-6c3a7da88ebb")
 	)
 	(junction
-		(at 132.08 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d202798a-f6bf-4550-a412-4718dcebdc92")
-	)
-	(junction
 		(at 317.5 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2080bb2-4349-4491-b973-4fe3828e1ac4")
-	)
-	(junction
-		(at 74.93 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d227b3af-e552-4864-bed1-6b23b7ad0029")
 	)
 	(junction
 		(at 284.48 81.28)
@@ -2222,18 +1988,6 @@
 		(uuid "d90692a7-892f-42f1-8a92-f6c9d6b0132d")
 	)
 	(junction
-		(at 132.08 217.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9ae9d0c-92c4-4878-9cf7-441b25b9c43e")
-	)
-	(junction
-		(at 298.45 201.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db572f7f-daea-486a-8da5-0e65f95e9b43")
-	)
-	(junction
 		(at 170.18 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2246,40 +2000,16 @@
 		(uuid "ddb1f13b-6b18-472c-9fde-f24828b7960b")
 	)
 	(junction
-		(at 226.06 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df12c6d1-8abf-4782-b9ec-670f6dba4255")
-	)
-	(junction
 		(at 74.93 -50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e189581a-d008-4b82-bf32-e357eae1495f")
 	)
 	(junction
-		(at 302.26 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e310a023-a4af-4ee0-962b-f05efee86ab2")
-	)
-	(junction
 		(at 205.74 234.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4aeab25-7396-4d9c-b48c-d1c7972a2d94")
-	)
-	(junction
-		(at 151.13 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e50478a1-ab21-47b0-88e7-10cee7670021")
-	)
-	(junction
-		(at 170.18 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5b4e702-61c9-404f-ad36-050b7ecb3525")
 	)
 	(junction
 		(at 256.54 234.95)
@@ -2294,16 +2024,16 @@
 		(uuid "e80e9787-35b3-4920-a68a-ee7abe007e2d")
 	)
 	(junction
-		(at 151.13 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e93fa99c-0c48-4a89-89dc-09fb04e88e61")
-	)
-	(junction
 		(at 227.33 -17.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea0292b9-a21a-4dfd-91c6-2cc96c182892")
+	)
+	(junction
+		(at 246.38 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb7d47ce-9c0a-4efe-91ce-7b77be474c47")
 	)
 	(junction
 		(at 43.18 234.95)
@@ -2336,18 +2066,6 @@
 		(uuid "f2672d2e-5842-4aef-9ed0-6c4368e36b27")
 	)
 	(junction
-		(at 265.43 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2fd20ed-bb9f-4b24-b365-8246693e031b")
-	)
-	(junction
-		(at 151.13 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f3a07509-7d58-483a-a89d-ad9c82bf8ce5")
-	)
-	(junction
 		(at 208.28 -50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2376,12 +2094,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa33acdd-2bbf-4e42-8ecf-79ab8373867a")
-	)
-	(junction
-		(at 55.88 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa8b8f6f-6687-49aa-be92-edb7f0817ba5")
 	)
 	(junction
 		(at 322.58 -50.8)
@@ -2434,6 +2146,16 @@
 			(type default)
 		)
 		(uuid "009adede-b745-4aca-bf43-ad80902ed1f3")
+	)
+	(wire
+		(pts
+			(xy 360.68 49.53) (xy 360.68 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01465fe8-b89c-4884-b3f8-12e0c939b310")
 	)
 	(wire
 		(pts
@@ -2537,6 +2259,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 66.04) (xy 322.58 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a03b11-571c-407b-8b73-3972ff63e149")
+	)
+	(wire
+		(pts
 			(xy 93.98 -17.78) (xy 74.93 -17.78)
 		)
 		(stroke
@@ -2547,16 +2279,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 201.93) (xy 298.45 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "041480a2-b981-4b2e-a8e0-0171f39d5689")
-	)
-	(wire
-		(pts
 			(xy 132.08 -1.27) (xy 132.08 0)
 		)
 		(stroke
@@ -2564,6 +2286,16 @@
 			(type default)
 		)
 		(uuid "0598d42d-3737-4fb9-a0a7-a5512788d475")
+	)
+	(wire
+		(pts
+			(xy 246.38 49.53) (xy 246.38 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c27bca-5d4b-45e3-bb91-ddbca825b042")
 	)
 	(wire
 		(pts
@@ -2627,6 +2359,16 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 49.53) (xy 284.48 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a51ac0-f6b7-4589-8b09-5d8a42db1b75")
+	)
+	(wire
+		(pts
 			(xy 185.42 243.84) (xy 185.42 245.11)
 		)
 		(stroke
@@ -2677,16 +2419,6 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 64.77) (xy 303.53 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08bc4208-15b4-476e-8b9b-98a47407ee8e")
-	)
-	(wire
-		(pts
 			(xy 322.58 15.24) (xy 322.58 16.51)
 		)
 		(stroke
@@ -2697,16 +2429,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 139.7) (xy 245.11 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0994af8a-0012-47c3-a96d-8e56d9249196")
-	)
-	(wire
-		(pts
 			(xy 341.63 15.24) (xy 341.63 16.51)
 		)
 		(stroke
@@ -2714,6 +2436,16 @@
 			(type default)
 		)
 		(uuid "09ae8a32-2d1b-4d3a-a743-b9188e3c1a83")
+	)
+	(wire
+		(pts
+			(xy 189.23 64.77) (xy 189.23 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09cf0e13-fb6d-46bf-b594-d486ef6ef63a")
 	)
 	(wire
 		(pts
@@ -2757,26 +2489,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 163.83) (xy 170.18 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dc9ee33-a303-4958-a069-b683e32a2c69")
-	)
-	(wire
-		(pts
-			(xy 360.68 66.04) (xy 341.63 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e2748f3-f52d-40cf-a0ad-be95bd09fc07")
-	)
-	(wire
-		(pts
 			(xy 215.9 24.13) (xy 219.71 24.13)
 		)
 		(stroke
@@ -2784,16 +2496,6 @@
 			(type default)
 		)
 		(uuid "0e43e66b-5f6e-44b1-8c5b-3704547f1a58")
-	)
-	(wire
-		(pts
-			(xy 317.5 201.93) (xy 336.55 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ecfd60d-30c7-4360-8929-188b4f463f1c")
 	)
 	(wire
 		(pts
@@ -2817,26 +2519,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 217.17) (xy 74.93 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f29e525-988c-486a-83ae-1ae4decc66ed")
-	)
-	(wire
-		(pts
-			(xy 227.33 64.77) (xy 227.33 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f38b093-e372-4e9d-acfe-218a882b9e0b")
-	)
-	(wire
-		(pts
 			(xy 101.6 -41.91) (xy 105.41 -41.91)
 		)
 		(stroke
@@ -2844,16 +2526,6 @@
 			(type default)
 		)
 		(uuid "0f7dc8de-af11-4698-9436-ee47df85682b")
-	)
-	(wire
-		(pts
-			(xy 208.28 48.26) (xy 227.33 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fb54bab-9def-4ba0-adcb-a7961bab08d9")
 	)
 	(wire
 		(pts
@@ -2897,16 +2569,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 124.46) (xy 245.11 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1184b60f-83a9-4e74-bd2b-d7243f319f4f")
-	)
-	(wire
-		(pts
 			(xy 144.78 245.11) (xy 154.94 245.11)
 		)
 		(stroke
@@ -2934,26 +2596,6 @@
 			(type default)
 		)
 		(uuid "14120971-ffad-466d-83cb-86af3a62f580")
-	)
-	(wire
-		(pts
-			(xy 264.16 163.83) (xy 283.21 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14943c9b-1bf0-4a09-a1c5-14486d288e35")
-	)
-	(wire
-		(pts
-			(xy 322.58 48.26) (xy 341.63 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14b5ac44-eb6b-4bfb-b3d9-f20ef3fe0830")
 	)
 	(wire
 		(pts
@@ -3007,26 +2649,6 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 139.7) (xy 340.36 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18b88d14-f744-4670-b1b5-85b886b9c96f")
-	)
-	(wire
-		(pts
-			(xy 322.58 66.04) (xy 303.53 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18df8926-95fc-46a7-97c4-fd11e6f630b3")
-	)
-	(wire
-		(pts
 			(xy 170.18 31.75) (xy 170.18 33.02)
 		)
 		(stroke
@@ -3067,36 +2689,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 57.15) (xy 181.61 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a71e6d5-74fa-44dc-a27e-3cfa82d20b0a")
-	)
-	(wire
-		(pts
-			(xy 170.18 201.93) (xy 207.01 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a99e265-1894-4db8-969a-567e26286068")
-	)
-	(wire
-		(pts
-			(xy 283.21 179.07) (xy 340.36 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1be26d7e-fe06-4d22-a022-d1e0b1681286")
-	)
-	(wire
-		(pts
 			(xy 226.06 245.11) (xy 236.22 245.11)
 		)
 		(stroke
@@ -3104,26 +2696,6 @@
 			(type default)
 		)
 		(uuid "1beefe5f-a2b6-44e1-8168-db9f0e3a81c3")
-	)
-	(wire
-		(pts
-			(xy 260.35 217.17) (xy 260.35 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c58f53d-8af2-4b14-afcb-56c9d84c31dd")
-	)
-	(wire
-		(pts
-			(xy 349.25 57.15) (xy 353.06 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dd7b3ab-3455-4f0d-af1f-2e161dadc170")
 	)
 	(wire
 		(pts
@@ -3154,6 +2726,16 @@
 			(type default)
 		)
 		(uuid "1f373f6a-8100-4240-8e7b-2ce8a9d774e5")
+	)
+	(wire
+		(pts
+			(xy 196.85 57.15) (xy 200.66 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc5da0c-a7b5-4689-ab65-f24795e6a32b")
 	)
 	(wire
 		(pts
@@ -3207,16 +2789,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 64.77) (xy 246.38 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20fff17d-3cfc-4c48-91c8-baa80cf1c500")
-	)
-	(wire
-		(pts
 			(xy 74.93 99.06) (xy 74.93 97.79)
 		)
 		(stroke
@@ -3224,16 +2796,6 @@
 			(type default)
 		)
 		(uuid "22ecc109-0bd3-4a95-85e3-bff298684ca5")
-	)
-	(wire
-		(pts
-			(xy 265.43 64.77) (xy 265.43 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23098d04-39dc-4159-a24d-e5b382dd3222")
 	)
 	(wire
 		(pts
@@ -3267,16 +2829,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 124.46) (xy 151.13 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27249036-3be0-45e4-9eea-292635634398")
-	)
-	(wire
-		(pts
 			(xy 330.2 90.17) (xy 334.01 90.17)
 		)
 		(stroke
@@ -3287,13 +2839,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 124.46) (xy 170.18 124.46)
+			(xy 246.38 66.04) (xy 246.38 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "277bb0ac-2279-4a4f-94ef-b98d0e3bc051")
+		(uuid "276ed7c8-645a-47df-8c64-97bdd2c0bf32")
 	)
 	(wire
 		(pts
@@ -3307,13 +2859,13 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 48.26) (xy 303.53 49.53)
+			(xy 292.1 57.15) (xy 295.91 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "284d9b03-3a24-475f-84c3-afe2512193bd")
+		(uuid "27cc9b15-5623-4160-973f-8a962498b036")
 	)
 	(wire
 		(pts
@@ -3337,16 +2889,6 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 66.04) (xy 322.58 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28fd5639-6859-4fc6-9632-869f08f349d8")
-	)
-	(wire
-		(pts
 			(xy 246.38 245.11) (xy 256.54 245.11)
 		)
 		(stroke
@@ -3367,16 +2909,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 64.77) (xy 208.28 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29820e0f-2c13-4c60-908f-6071cfe55dc6")
-	)
-	(wire
-		(pts
 			(xy 265.43 81.28) (xy 265.43 82.55)
 		)
 		(stroke
@@ -3394,16 +2926,6 @@
 			(type default)
 		)
 		(uuid "29bb5dff-d191-4d53-bd80-89ab3d10c6df")
-	)
-	(wire
-		(pts
-			(xy 322.58 64.77) (xy 322.58 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a3b1984-feb5-418b-98e1-0417fef4b846")
 	)
 	(wire
 		(pts
@@ -3467,16 +2989,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 66.04) (xy 151.13 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bea87e4-5d6b-4b2d-9927-5f078f7b5bd2")
-	)
-	(wire
-		(pts
 			(xy 378.46 245.11) (xy 388.62 245.11)
 		)
 		(stroke
@@ -3484,6 +2996,16 @@
 			(type default)
 		)
 		(uuid "2bffd934-c8e5-45bb-a94b-234b064d2cc9")
+	)
+	(wire
+		(pts
+			(xy 208.28 49.53) (xy 208.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d08ffa4-bd58-42a2-8209-e1b7c817481a")
 	)
 	(wire
 		(pts
@@ -3504,16 +3026,6 @@
 			(type default)
 		)
 		(uuid "2e8ed73e-9a0b-4474-bc89-9382c862763c")
-	)
-	(wire
-		(pts
-			(xy 245.11 139.7) (xy 302.26 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ed18e9b-3bb0-4af0-9828-51bf2021f005")
 	)
 	(wire
 		(pts
@@ -3544,16 +3056,6 @@
 			(type default)
 		)
 		(uuid "312f78e7-c885-49e4-a5e7-1fb13f6487a1")
-	)
-	(wire
-		(pts
-			(xy 151.13 217.17) (xy 170.18 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31938326-758f-43e3-8821-86adaddf8ead")
 	)
 	(wire
 		(pts
@@ -3647,16 +3149,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 66.04) (xy 265.43 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "332aa4e7-d6e1-49d7-a127-ffe0638ac913")
-	)
-	(wire
-		(pts
 			(xy 303.53 -50.8) (xy 303.53 -49.53)
 		)
 		(stroke
@@ -3707,16 +3199,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 48.26) (xy 246.38 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3526313b-c619-4736-a0fe-5148026c8cd9")
-	)
-	(wire
-		(pts
 			(xy 93.98 99.06) (xy 74.93 99.06)
 		)
 		(stroke
@@ -3757,6 +3239,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 66.04) (xy 322.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384afda0-5600-4252-aa72-dfc44395ccfe")
+	)
+	(wire
+		(pts
 			(xy 358.14 243.84) (xy 358.14 245.11)
 		)
 		(stroke
@@ -3787,16 +3279,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 139.7) (xy 151.13 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b460de4-a2fd-4eeb-bf78-e25471749954")
-	)
-	(wire
-		(pts
 			(xy 246.38 81.28) (xy 265.43 81.28)
 		)
 		(stroke
@@ -3814,16 +3296,6 @@
 			(type default)
 		)
 		(uuid "3bbc4b7d-461f-4549-bf1f-67c3ea194579")
-	)
-	(wire
-		(pts
-			(xy 74.93 217.17) (xy 93.98 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bda55fa-dc72-466c-9480-efe34bb1fca0")
 	)
 	(wire
 		(pts
@@ -3887,6 +3359,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 48.26) (xy 303.53 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dfd1808-6bb7-45fd-b71f-d587a3ca53c1")
+	)
+	(wire
+		(pts
 			(xy 170.18 -17.78) (xy 170.18 -16.51)
 		)
 		(stroke
@@ -3904,6 +3386,16 @@
 			(type default)
 		)
 		(uuid "3e61bb5a-11cd-465b-a484-320e2a738557")
+	)
+	(wire
+		(pts
+			(xy 303.53 48.26) (xy 322.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0bf9a3-ae68-4827-aaa7-b67e3f510a31")
 	)
 	(wire
 		(pts
@@ -3927,26 +3419,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 48.26) (xy 170.18 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fb2fbec-0884-4709-924d-ca7acecd375c")
-	)
-	(wire
-		(pts
-			(xy 93.98 179.07) (xy 170.18 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4002fc17-61de-4713-b264-e41c215c43dd")
-	)
-	(wire
-		(pts
 			(xy 93.98 -50.8) (xy 113.03 -50.8)
 		)
 		(stroke
@@ -3967,13 +3439,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 66.04) (xy 227.33 66.04)
+			(xy 311.15 57.15) (xy 314.96 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4093fe90-d4be-4743-89b3-8f25cdb60d36")
+		(uuid "417687b5-0629-4e32-ab5b-5cdbea8f17d0")
 	)
 	(wire
 		(pts
@@ -4097,16 +3569,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 57.15) (xy 314.96 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45555fbf-abe8-4e36-b029-01df140fcc55")
-	)
-	(wire
-		(pts
 			(xy 236.22 234.95) (xy 246.38 234.95)
 		)
 		(stroke
@@ -4117,13 +3579,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 48.26) (xy 189.23 49.53)
+			(xy 284.48 48.26) (xy 303.53 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "459be157-5bfc-4a6f-8646-e4bbe75305e8")
+		(uuid "45dda3af-4e50-46f3-aac8-e007caa4d337")
 	)
 	(wire
 		(pts
@@ -4147,16 +3609,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 48.26) (xy 151.13 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46a24a30-7c8d-4780-a96f-c17806288968")
-	)
-	(wire
-		(pts
 			(xy 93.98 -50.8) (xy 93.98 -49.53)
 		)
 		(stroke
@@ -4164,16 +3616,6 @@
 			(type default)
 		)
 		(uuid "46af4ced-1c7a-4196-8817-f987c7d7feb9")
-	)
-	(wire
-		(pts
-			(xy 279.4 217.17) (xy 298.45 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46afac77-e273-4e3a-8faa-ab72baf5f95e")
 	)
 	(wire
 		(pts
@@ -4247,13 +3689,13 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 179.07) (xy 264.16 179.07)
+			(xy 273.05 57.15) (xy 276.86 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "497cba88-d282-45c0-a924-64891c915af0")
+		(uuid "495183d2-e41c-488a-a0cd-0bd5e12af7f8")
 	)
 	(wire
 		(pts
@@ -4327,16 +3769,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 139.7) (xy 93.98 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d24e00b-b8ca-41aa-a78d-b0d35d1bd63c")
-	)
-	(wire
-		(pts
 			(xy 408.94 243.84) (xy 408.94 245.11)
 		)
 		(stroke
@@ -4357,16 +3789,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 201.93) (xy 279.4 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dd8b952-7909-4814-9fc0-60a1c4eecdfb")
-	)
-	(wire
-		(pts
 			(xy 144.78 234.95) (xy 154.94 234.95)
 		)
 		(stroke
@@ -4377,6 +3799,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 48.26) (xy 265.43 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5f7d25-d49f-47b5-8331-de0cd219843d")
+	)
+	(wire
+		(pts
 			(xy 419.1 234.95) (xy 419.1 236.22)
 		)
 		(stroke
@@ -4384,6 +3816,16 @@
 			(type default)
 		)
 		(uuid "4ea2cf83-5f94-49d5-9d47-e6af3f3b80ac")
+	)
+	(wire
+		(pts
+			(xy 246.38 48.26) (xy 265.43 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3194d0-4275-4407-ae45-38e4e1448ad9")
 	)
 	(wire
 		(pts
@@ -4497,16 +3939,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 48.26) (xy 265.43 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53e5a679-683e-4030-aad9-b6119a02e9b9")
-	)
-	(wire
-		(pts
 			(xy 378.46 234.95) (xy 388.62 234.95)
 		)
 		(stroke
@@ -4524,26 +3956,6 @@
 			(type default)
 		)
 		(uuid "546660bb-1c93-4239-af77-9dae8c0bf169")
-	)
-	(wire
-		(pts
-			(xy 245.11 124.46) (xy 302.26 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54a31c9e-bb62-4bb0-a78b-3a252fcf962a")
-	)
-	(wire
-		(pts
-			(xy 170.18 48.26) (xy 189.23 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54ae8725-213e-4e3f-b800-ff4b28c8d66c")
 	)
 	(wire
 		(pts
@@ -4627,16 +4039,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 217.17) (xy 317.5 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "576c65f7-a3e9-462f-ba98-e86f7a42bd98")
-	)
-	(wire
-		(pts
 			(xy 53.34 234.95) (xy 63.5 234.95)
 		)
 		(stroke
@@ -4644,16 +4046,6 @@
 			(type default)
 		)
 		(uuid "57a94297-bbd3-476f-bfd4-f1ea588c28ab")
-	)
-	(wire
-		(pts
-			(xy 265.43 48.26) (xy 284.48 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57c541ae-e362-4449-8279-330bb952ee7e")
 	)
 	(wire
 		(pts
@@ -4677,13 +4069,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 217.17) (xy 132.08 217.17)
+			(xy 208.28 48.26) (xy 227.33 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58c724f8-97c1-4ffc-a566-16269950b9e8")
+		(uuid "584e5974-532a-40a5-baae-00e97a6c3a20")
 	)
 	(wire
 		(pts
@@ -4714,6 +4106,16 @@
 			(type default)
 		)
 		(uuid "5ac3fa41-6227-4573-8f1b-d9f38af8ac36")
+	)
+	(wire
+		(pts
+			(xy 208.28 66.04) (xy 208.28 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0c67e9-5dc1-433e-8849-2c17dbbab67b")
 	)
 	(wire
 		(pts
@@ -4887,16 +4289,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 139.7) (xy 132.08 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61fdccde-2fae-486c-9377-73b8a10d328e")
-	)
-	(wire
-		(pts
 			(xy 388.62 234.95) (xy 398.78 234.95)
 		)
 		(stroke
@@ -4914,16 +4306,6 @@
 			(type default)
 		)
 		(uuid "62764a43-dc4c-420f-8382-4e269cbb5695")
-	)
-	(wire
-		(pts
-			(xy 207.01 179.07) (xy 264.16 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6281316e-0865-40d1-b1e3-4086c6909d1e")
 	)
 	(wire
 		(pts
@@ -4997,6 +4379,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 48.26) (xy 227.33 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "641ad09f-37e6-48e4-ad7d-947836427230")
+	)
+	(wire
+		(pts
 			(xy 372.11 73.66) (xy 372.11 57.15)
 		)
 		(stroke
@@ -5027,16 +4419,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 57.15) (xy 276.86 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "650862af-88af-4c1b-977b-b5655ec0152d")
-	)
-	(wire
-		(pts
 			(xy 63.5 245.11) (xy 73.66 245.11)
 		)
 		(stroke
@@ -5064,6 +4446,16 @@
 			(type default)
 		)
 		(uuid "66392896-ce32-496c-852d-23736f2a6114")
+	)
+	(wire
+		(pts
+			(xy 265.43 48.26) (xy 284.48 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66af0345-f6d4-4c50-9f74-be94b6cf1022")
 	)
 	(wire
 		(pts
@@ -5117,6 +4509,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 57.15) (xy 372.11 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b6546f-d3c9-4f8d-ad1f-2f03119e7659")
+	)
+	(wire
+		(pts
 			(xy 368.3 245.11) (xy 378.46 245.11)
 		)
 		(stroke
@@ -5164,6 +4566,16 @@
 			(type default)
 		)
 		(uuid "6912587d-9645-472e-825e-48495d3cc01e")
+	)
+	(wire
+		(pts
+			(xy 341.63 64.77) (xy 341.63 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "692fba50-14c5-485c-ab35-7ebef1fc2961")
 	)
 	(wire
 		(pts
@@ -5217,16 +4629,6 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 163.83) (xy 359.41 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c2305fb-7f75-4127-bd41-4d5f1c4fd145")
-	)
-	(wire
-		(pts
 			(xy 93.98 -34.29) (xy 93.98 -33.02)
 		)
 		(stroke
@@ -5257,23 +4659,13 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 48.26) (xy 360.68 48.26)
+			(xy 227.33 48.26) (xy 246.38 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e3f98e2-f60e-4ce9-9d92-412de59c1f9b")
-	)
-	(wire
-		(pts
-			(xy 151.13 48.26) (xy 170.18 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e8d3764-6f40-47ca-88d9-c49dff3c9b9e")
+		(uuid "6dc474d6-cb1b-4ef2-b3cc-621f1287e43f")
 	)
 	(wire
 		(pts
@@ -5324,6 +4716,16 @@
 			(type default)
 		)
 		(uuid "70244c68-ca85-4c01-8777-97b72cae7b4a")
+	)
+	(wire
+		(pts
+			(xy 189.23 48.26) (xy 208.28 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "703a8575-8bbd-41fc-a491-ac55357d0960")
 	)
 	(wire
 		(pts
@@ -5427,16 +4829,6 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 124.46) (xy 340.36 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74a3c9ef-cf76-4a3a-a2a2-9141e552bfa2")
-	)
-	(wire
-		(pts
 			(xy 132.08 0) (xy 113.03 0)
 		)
 		(stroke
@@ -5487,26 +4879,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 124.46) (xy 132.08 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7740c216-1f69-4b04-933c-aa1ab6700c26")
-	)
-	(wire
-		(pts
-			(xy 265.43 66.04) (xy 246.38 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77957459-266e-4828-abd6-583a535c12af")
-	)
-	(wire
-		(pts
 			(xy 63.5 57.15) (xy 67.31 57.15)
 		)
 		(stroke
@@ -5517,13 +4889,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 57.15) (xy 219.71 57.15)
+			(xy 227.33 66.04) (xy 208.28 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79861a04-d9d6-4968-bee7-c25a36c73c2e")
+		(uuid "79b90d54-1886-464f-b1f7-8e6d706d9744")
 	)
 	(wire
 		(pts
@@ -5557,16 +4929,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 57.15) (xy 238.76 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ac04b2e-c5b5-4536-bc7c-493657c85d25")
-	)
-	(wire
-		(pts
 			(xy 322.58 -34.29) (xy 322.58 -33.02)
 		)
 		(stroke
@@ -5574,16 +4936,6 @@
 			(type default)
 		)
 		(uuid "7b0c2326-2172-4690-acd3-3cf4af48c4d1")
-	)
-	(wire
-		(pts
-			(xy 74.93 201.93) (xy 55.88 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b30fd4e-9139-4b5d-a90f-399ec71588f8")
 	)
 	(wire
 		(pts
@@ -5717,13 +5069,13 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 217.17) (xy 279.4 217.17)
+			(xy 265.43 64.77) (xy 265.43 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f6d812c-37a0-49ad-bc20-b556b8ab9475")
+		(uuid "7f88e941-3af4-44f5-a005-f2602a986d68")
 	)
 	(wire
 		(pts
@@ -5807,13 +5159,13 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 48.26) (xy 303.53 48.26)
+			(xy 215.9 57.15) (xy 219.71 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8493bfd8-25d1-4cd9-96fa-da50da30b3d0")
+		(uuid "842cc65d-8f4e-48a6-8bb2-bd37175deb57")
 	)
 	(wire
 		(pts
@@ -5824,6 +5176,16 @@
 			(type default)
 		)
 		(uuid "856ce4f3-62a4-49aa-a727-2a3cbc8a8f64")
+	)
+	(wire
+		(pts
+			(xy 284.48 66.04) (xy 284.48 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b4d4d7-6ed7-4356-b332-fcc0c0732d86")
 	)
 	(wire
 		(pts
@@ -5887,6 +5249,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 49.53) (xy 341.63 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86ff8d0e-db90-4705-950b-5fd35b35932e")
+	)
+	(wire
+		(pts
 			(xy 74.93 -34.29) (xy 74.93 -33.02)
 		)
 		(stroke
@@ -5894,16 +5266,6 @@
 			(type default)
 		)
 		(uuid "8714b323-378e-4613-9cf4-b8ff1f2293ce")
-	)
-	(wire
-		(pts
-			(xy 360.68 48.26) (xy 360.68 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "874eaf3b-afb5-4ed2-a844-f43b451c48be")
 	)
 	(wire
 		(pts
@@ -5987,6 +5349,16 @@
 	)
 	(wire
 		(pts
+			(xy 360.68 64.77) (xy 360.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a246992-7bae-4105-95d9-2ec0b1568e99")
+	)
+	(wire
+		(pts
 			(xy 327.66 245.11) (xy 337.82 245.11)
 		)
 		(stroke
@@ -6014,6 +5386,16 @@
 			(type default)
 		)
 		(uuid "8d7c3065-cc38-400a-965a-66efec8338a0")
+	)
+	(wire
+		(pts
+			(xy 227.33 66.04) (xy 246.38 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8db673f1-83aa-4786-ac60-d0f7a2b707f8")
 	)
 	(wire
 		(pts
@@ -6054,16 +5436,6 @@
 			(type default)
 		)
 		(uuid "8eab73f1-39a4-4e80-ac1d-65ebf271aba8")
-	)
-	(wire
-		(pts
-			(xy 284.48 48.26) (xy 284.48 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f95113f-2341-40bf-a45c-a6de5d2d5434")
 	)
 	(wire
 		(pts
@@ -6147,16 +5519,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 57.15) (xy 143.51 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9396ab7f-7f0b-44f6-ba0f-db95a82f1d14")
-	)
-	(wire
-		(pts
 			(xy 276.86 234.95) (xy 287.02 234.95)
 		)
 		(stroke
@@ -6237,16 +5599,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 48.26) (xy 208.28 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96a0bd5b-7488-41e0-ae02-8ffeafa7034a")
-	)
-	(wire
-		(pts
 			(xy 246.38 0) (xy 227.33 0)
 		)
 		(stroke
@@ -6257,6 +5609,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 48.26) (xy 360.68 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "973d57e9-51bd-445a-9de7-b2229d3b5292")
+	)
+	(wire
+		(pts
 			(xy 254 90.17) (xy 257.81 90.17)
 		)
 		(stroke
@@ -6264,16 +5626,6 @@
 			(type default)
 		)
 		(uuid "9769745f-f9ec-4ad6-abd7-98dce39ac22a")
-	)
-	(wire
-		(pts
-			(xy 187.96 139.7) (xy 226.06 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "979f213a-d41d-45e8-b70a-8617cfe17d98")
 	)
 	(wire
 		(pts
@@ -6324,16 +5676,6 @@
 			(type default)
 		)
 		(uuid "9841971a-b736-4dbf-a9fd-774ef3a3ead9")
-	)
-	(wire
-		(pts
-			(xy 330.2 57.15) (xy 334.01 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "998d2b7e-e6b2-446d-a870-b640ba6ee1b5")
 	)
 	(wire
 		(pts
@@ -6447,6 +5789,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 66.04) (xy 208.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f287dca-5cac-4fbd-8b31-7ae3f6f43e07")
+	)
+	(wire
+		(pts
 			(xy 82.55 57.15) (xy 86.36 57.15)
 		)
 		(stroke
@@ -6487,6 +5839,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 48.26) (xy 189.23 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff125a1-6bde-47a3-9e32-af3eebdd9e11")
+	)
+	(wire
+		(pts
 			(xy 189.23 15.24) (xy 208.28 15.24)
 		)
 		(stroke
@@ -6517,26 +5879,6 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 217.17) (xy 336.55 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a11b5fc5-c039-4f23-99b4-ea0a37776c78")
-	)
-	(wire
-		(pts
-			(xy 341.63 64.77) (xy 341.63 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a16f33cb-2ca3-4afb-9d6f-6793d28a79dd")
-	)
-	(wire
-		(pts
 			(xy 55.88 48.26) (xy 74.93 48.26)
 		)
 		(stroke
@@ -6554,16 +5896,6 @@
 			(type default)
 		)
 		(uuid "a24f11dc-ee32-4633-89c8-5042ed0434ba")
-	)
-	(wire
-		(pts
-			(xy 93.98 201.93) (xy 132.08 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a26978d3-42b3-4869-b4b4-12541d57b052")
 	)
 	(wire
 		(pts
@@ -6597,26 +5929,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 64.77) (xy 170.18 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3559f8e-91fb-4c44-8551-8066415cf71a")
-	)
-	(wire
-		(pts
-			(xy 284.48 64.77) (xy 284.48 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4441b8c-270a-4668-8e96-bef83d78f0c8")
-	)
-	(wire
-		(pts
 			(xy 189.23 -1.27) (xy 189.23 0)
 		)
 		(stroke
@@ -6624,16 +5936,6 @@
 			(type default)
 		)
 		(uuid "a4a27b56-b590-497b-b3a3-0debdaf8bc51")
-	)
-	(wire
-		(pts
-			(xy 292.1 57.15) (xy 295.91 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a51e1c50-8c8e-46a2-8b57-12b5323306e2")
 	)
 	(wire
 		(pts
@@ -6677,13 +5979,13 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 57.15) (xy 200.66 57.15)
+			(xy 322.58 49.53) (xy 322.58 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a675cb6d-c6ee-4c8d-b04f-fe05c286313c")
+		(uuid "a660ebaf-575f-4976-a31b-a243a676dee5")
 	)
 	(wire
 		(pts
@@ -6714,6 +6016,16 @@
 			(type default)
 		)
 		(uuid "a6fb7bba-9523-4322-96da-1de4af4734ff")
+	)
+	(wire
+		(pts
+			(xy 151.13 66.04) (xy 170.18 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a739b036-6fe3-4b80-9174-ee5a5d5c9da0")
 	)
 	(wire
 		(pts
@@ -6767,16 +6079,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 163.83) (xy 93.98 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9e05d10-eb4c-4340-a47c-389add2a284c")
-	)
-	(wire
-		(pts
 			(xy 113.03 -34.29) (xy 113.03 -33.02)
 		)
 		(stroke
@@ -6804,6 +6106,16 @@
 			(type default)
 		)
 		(uuid "ab0d185b-ed72-46a5-97ef-ea65ed5054d5")
+	)
+	(wire
+		(pts
+			(xy 151.13 48.26) (xy 151.13 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4e201a-eab1-48c9-9470-d5d40a300ce7")
 	)
 	(wire
 		(pts
@@ -6897,6 +6209,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 66.04) (xy 170.18 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17a32c2-efde-4b7a-a043-838a5fa455e2")
+	)
+	(wire
+		(pts
 			(xy 360.68 81.28) (xy 360.68 82.55)
 		)
 		(stroke
@@ -6927,16 +6249,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 57.15) (xy 162.56 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b399f5ca-7c19-4983-9bd2-d2cbc633a241")
-	)
-	(wire
-		(pts
 			(xy 265.43 15.24) (xy 284.48 15.24)
 		)
 		(stroke
@@ -6954,6 +6266,16 @@
 			(type default)
 		)
 		(uuid "b5015993-7f9d-4bb0-af73-66d0f2bc6e49")
+	)
+	(wire
+		(pts
+			(xy 303.53 66.04) (xy 284.48 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5525b3e-2479-4454-9ae1-96bff98b4cda")
 	)
 	(wire
 		(pts
@@ -6997,13 +6319,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 201.93) (xy 151.13 201.93)
+			(xy 234.95 57.15) (xy 238.76 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6aa35aa-c073-472c-86e3-82aa5656bcd3")
+		(uuid "b69d7ace-b46b-44fa-9403-29bf4541f9ce")
 	)
 	(wire
 		(pts
@@ -7014,36 +6336,6 @@
 			(type default)
 		)
 		(uuid "b6f5e0bf-c5b7-44c5-b3c1-94ecd9d8365b")
-	)
-	(wire
-		(pts
-			(xy 322.58 48.26) (xy 322.58 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b70b2c93-5c17-479e-b728-ca3d2328caca")
-	)
-	(wire
-		(pts
-			(xy 170.18 163.83) (xy 207.01 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b737b512-77d6-49ab-b5bf-790eb1d6e254")
-	)
-	(wire
-		(pts
-			(xy 227.33 48.26) (xy 227.33 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7edb1a3-f95a-4435-a75c-dda2abd0e0b9")
 	)
 	(wire
 		(pts
@@ -7097,16 +6389,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 201.93) (xy 74.93 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b97137e4-5dc7-482d-bbb5-0fa52e664f0d")
-	)
-	(wire
-		(pts
 			(xy 63.5 24.13) (xy 67.31 24.13)
 		)
 		(stroke
@@ -7157,16 +6439,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 66.04) (xy 208.28 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb81442a-d114-42d8-ba3a-29c62721f569")
-	)
-	(wire
-		(pts
 			(xy 215.9 90.17) (xy 219.71 90.17)
 		)
 		(stroke
@@ -7174,6 +6446,16 @@
 			(type default)
 		)
 		(uuid "bbc0a027-52ed-41c5-845c-1bafb8ddf694")
+	)
+	(wire
+		(pts
+			(xy 322.58 48.26) (xy 341.63 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbca80db-7992-4a39-86f7-e95c8f53f136")
 	)
 	(wire
 		(pts
@@ -7187,13 +6469,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 124.46) (xy 226.06 124.46)
+			(xy 330.2 57.15) (xy 334.01 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc9f0d45-92da-4aa8-a182-94690fd90737")
+		(uuid "bcca9c13-9e47-4d9d-ae68-54a368e8ffb4")
 	)
 	(wire
 		(pts
@@ -7297,6 +6579,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 66.04) (xy 341.63 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4e4b7c-b816-4210-b21c-1397ae6879a6")
+	)
+	(wire
+		(pts
 			(xy 113.03 -50.8) (xy 113.03 -49.53)
 		)
 		(stroke
@@ -7334,16 +6626,6 @@
 			(type default)
 		)
 		(uuid "bf0ae52d-f996-4c14-914a-2c67249342cd")
-	)
-	(wire
-		(pts
-			(xy 55.88 124.46) (xy 93.98 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf519639-ecfe-418a-af72-b40a2e0a3e06")
 	)
 	(wire
 		(pts
@@ -7387,6 +6669,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 66.04) (xy 360.68 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0a38e85-f13c-4c02-bf45-9f925d93165a")
+	)
+	(wire
+		(pts
 			(xy 307.34 234.95) (xy 317.5 234.95)
 		)
 		(stroke
@@ -7394,6 +6686,16 @@
 			(type default)
 		)
 		(uuid "c0b8598a-024e-48d7-9c68-e5be4aa5da31")
+	)
+	(wire
+		(pts
+			(xy 265.43 66.04) (xy 246.38 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c248f770-b15d-476c-81fb-88a1049aeb08")
 	)
 	(wire
 		(pts
@@ -7414,6 +6716,16 @@
 			(type default)
 		)
 		(uuid "c2cdf9de-a3fd-40f0-8bb4-791dc087a656")
+	)
+	(wire
+		(pts
+			(xy 265.43 66.04) (xy 284.48 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d2d8cf-8660-49fd-bb07-1b00a686b38d")
 	)
 	(wire
 		(pts
@@ -7487,16 +6799,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 66.04) (xy 189.23 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c43e9569-488a-448d-9f7b-343cb8723849")
-	)
-	(wire
-		(pts
 			(xy 55.88 -17.78) (xy 74.93 -17.78)
 		)
 		(stroke
@@ -7504,6 +6806,16 @@
 			(type default)
 		)
 		(uuid "c4853376-1c17-4c18-bbfa-2c32533ccbe1")
+	)
+	(wire
+		(pts
+			(xy 254 57.15) (xy 257.81 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4b6e887-35b8-46a2-b9da-6f0c9bf81d61")
 	)
 	(wire
 		(pts
@@ -7517,16 +6829,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 48.26) (xy 246.38 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5aa7297-797c-4e3f-91c8-4dc768119c63")
-	)
-	(wire
-		(pts
 			(xy 322.58 99.06) (xy 303.53 99.06)
 		)
 		(stroke
@@ -7534,16 +6836,6 @@
 			(type default)
 		)
 		(uuid "c5b0b52e-22dd-4bd1-ad8c-e906c6a879a7")
-	)
-	(wire
-		(pts
-			(xy 360.68 64.77) (xy 360.68 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6522502-178a-4371-8a18-fb6e59d07a49")
 	)
 	(wire
 		(pts
@@ -7587,16 +6879,6 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 48.26) (xy 341.63 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c76451f3-9dc2-4ae1-8160-809205497388")
-	)
-	(wire
-		(pts
 			(xy 151.13 33.02) (xy 132.08 33.02)
 		)
 		(stroke
@@ -7637,6 +6919,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 57.15) (xy 143.51 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c916be84-01cc-4830-a2e4-891f6f483b03")
+	)
+	(wire
+		(pts
 			(xy 273.05 24.13) (xy 276.86 24.13)
 		)
 		(stroke
@@ -7644,16 +6936,6 @@
 			(type default)
 		)
 		(uuid "c966762c-2572-4b1f-8ccf-df61ac85db12")
-	)
-	(wire
-		(pts
-			(xy 303.53 48.26) (xy 322.58 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca3e9eaf-bfb1-4b2f-8c5d-dde6334dde5a")
 	)
 	(wire
 		(pts
@@ -7787,13 +7069,13 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 57.15) (xy 368.3 57.15)
+			(xy 170.18 49.53) (xy 170.18 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf381d27-555f-481a-b656-a6e040af42ea")
+		(uuid "cefd3b88-9e11-4eda-b7f8-5641ba1c0b1d")
 	)
 	(wire
 		(pts
@@ -7834,16 +7116,6 @@
 			(type default)
 		)
 		(uuid "d210d205-8222-43df-b3eb-3f3c3323effd")
-	)
-	(wire
-		(pts
-			(xy 260.35 199.39) (xy 260.35 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2202500-bfee-4497-ba0e-eab0b38b282a")
 	)
 	(wire
 		(pts
@@ -7907,6 +7179,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 57.15) (xy 181.61 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5bf781d-b77e-47e7-a892-0ff79b7e3de4")
+	)
+	(wire
+		(pts
 			(xy 113.03 31.75) (xy 113.03 33.02)
 		)
 		(stroke
@@ -7924,16 +7206,6 @@
 			(type default)
 		)
 		(uuid "d65edf28-a4d1-4793-8c06-41c8a972dfdd")
-	)
-	(wire
-		(pts
-			(xy 132.08 217.17) (xy 151.13 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d676fef0-5f5a-4742-b544-b2b7bb872763")
 	)
 	(wire
 		(pts
@@ -7977,23 +7249,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 139.7) (xy 170.18 139.7)
+			(xy 151.13 48.26) (xy 170.18 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d72deb34-7adf-4c84-8389-f155a795c729")
-	)
-	(wire
-		(pts
-			(xy 189.23 48.26) (xy 208.28 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d746156d-db20-4309-80df-5c7a1d7cd50f")
+		(uuid "d764765d-0920-413f-a73c-85026f868011")
 	)
 	(wire
 		(pts
@@ -8004,16 +7266,6 @@
 			(type default)
 		)
 		(uuid "d84efefc-5c26-4fd5-ab00-e58de29ac0aa")
-	)
-	(wire
-		(pts
-			(xy 170.18 124.46) (xy 187.96 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8752505-357a-4813-a562-f13082f328f5")
 	)
 	(wire
 		(pts
@@ -8067,16 +7319,6 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 179.07) (xy 340.36 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9a2bc0f-ab2f-4df5-9371-6b68728b7a77")
-	)
-	(wire
-		(pts
 			(xy 327.66 243.84) (xy 327.66 245.11)
 		)
 		(stroke
@@ -8097,6 +7339,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 57.15) (xy 162.56 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dabdb8dc-63c6-409d-b48f-1b10272545fe")
+	)
+	(wire
+		(pts
 			(xy 360.68 99.06) (xy 341.63 99.06)
 		)
 		(stroke
@@ -8104,16 +7356,6 @@
 			(type default)
 		)
 		(uuid "db19aac3-c6fb-4b70-8b47-6db1746ca5d5")
-	)
-	(wire
-		(pts
-			(xy 151.13 64.77) (xy 151.13 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbb89099-8e74-4abc-a480-4e9c0012049f")
 	)
 	(wire
 		(pts
@@ -8147,33 +7389,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 121.92) (xy 55.88 124.46)
+			(xy 189.23 66.04) (xy 170.18 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc2f2e5b-6c47-4207-852c-2284e06d3864")
+		(uuid "dca4ce14-09bf-4f89-997c-c8f4f242e623")
 	)
 	(wire
 		(pts
-			(xy 55.88 139.7) (xy 55.88 142.24)
+			(xy 227.33 64.77) (xy 227.33 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc64662d-fbed-4beb-a8c9-af0653a623c0")
-	)
-	(wire
-		(pts
-			(xy 246.38 48.26) (xy 265.43 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd8bc331-04d9-46b0-bc33-b6150811f726")
+		(uuid "dd7d3f51-9570-4d15-901e-c87fb846f403")
 	)
 	(wire
 		(pts
@@ -8204,16 +7436,6 @@
 			(type default)
 		)
 		(uuid "df126712-552c-4448-b5ea-d3e2d135a863")
-	)
-	(wire
-		(pts
-			(xy 55.88 179.07) (xy 93.98 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df291c5b-392b-4394-8eae-db43cb619145")
 	)
 	(wire
 		(pts
@@ -8317,16 +7539,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 179.07) (xy 207.01 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5db5194-f5cb-4605-a1f9-56090a4d1b1b")
-	)
-	(wire
-		(pts
 			(xy 358.14 234.95) (xy 368.3 234.95)
 		)
 		(stroke
@@ -8344,16 +7556,6 @@
 			(type default)
 		)
 		(uuid "e6348b37-9680-40fb-819a-276cda3ebed2")
-	)
-	(wire
-		(pts
-			(xy 189.23 64.77) (xy 189.23 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e65ca47a-d14d-44e8-99a7-62915d7c70b8")
 	)
 	(wire
 		(pts
@@ -8457,16 +7659,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 139.7) (xy 187.96 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea9db145-98ae-48b9-b387-5db8065482a5")
-	)
-	(wire
-		(pts
 			(xy 113.03 33.02) (xy 93.98 33.02)
 		)
 		(stroke
@@ -8494,16 +7686,6 @@
 			(type default)
 		)
 		(uuid "ebd6cc95-36d6-496f-83e7-09577f4fafb2")
-	)
-	(wire
-		(pts
-			(xy 170.18 217.17) (xy 207.01 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebf77fd3-a246-4a00-8b46-ea4c450fa2e1")
 	)
 	(wire
 		(pts
@@ -8657,16 +7839,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 66.04) (xy 170.18 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f157cef7-9f37-4eea-82f1-9048630bb41c")
-	)
-	(wire
-		(pts
 			(xy 227.33 -33.02) (xy 208.28 -33.02)
 		)
 		(stroke
@@ -8694,16 +7866,6 @@
 			(type default)
 		)
 		(uuid "f1d499f6-69e7-4449-ad91-25ab1cf890fc")
-	)
-	(wire
-		(pts
-			(xy 303.53 66.04) (xy 284.48 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f24ef401-d41b-46c9-908f-d672717e1139")
 	)
 	(wire
 		(pts
@@ -8737,6 +7899,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 64.77) (xy 303.53 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f427f04e-c816-47ec-8358-e85a4afabe53")
+	)
+	(wire
+		(pts
 			(xy 170.18 15.24) (xy 189.23 15.24)
 		)
 		(stroke
@@ -8757,13 +7929,13 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 163.83) (xy 264.16 163.83)
+			(xy 151.13 64.77) (xy 151.13 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f50bc5cf-a338-4c2e-885b-527b847fc20f")
+		(uuid "f51e9c21-f551-404a-b3a4-afd25f726b7a")
 	)
 	(wire
 		(pts
@@ -8807,13 +7979,13 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 201.93) (xy 317.5 201.93)
+			(xy 349.25 57.15) (xy 353.06 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f609cc1f-12be-4b49-baaa-ba13730d392f")
+		(uuid "f689a559-4ea2-492f-b530-8cd35c4e5b34")
 	)
 	(wire
 		(pts
@@ -8897,6 +8069,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 48.26) (xy 189.23 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab4c7c4-80b2-4b25-827c-a12696389726")
+	)
+	(wire
+		(pts
 			(xy 93.98 243.84) (xy 93.98 245.11)
 		)
 		(stroke
@@ -8957,16 +8139,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 201.93) (xy 132.08 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc29b7be-9e74-42bc-92e2-bc85fd656136")
-	)
-	(wire
-		(pts
 			(xy 45.72 24.13) (xy 45.72 7.62)
 		)
 		(stroke
@@ -8974,26 +8146,6 @@
 			(type default)
 		)
 		(uuid "fc3963bf-4a7d-473d-813f-c6d2df7d5cb7")
-	)
-	(wire
-		(pts
-			(xy 283.21 163.83) (xy 340.36 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc500b99-53f5-4e62-9721-f294939509e2")
-	)
-	(wire
-		(pts
-			(xy 254 57.15) (xy 257.81 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd1cb9d9-6f3a-49f1-a94b-ae5fd8d2caf6")
 	)
 	(wire
 		(pts
@@ -9220,7 +8372,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 132.08 209.55 0)
+		(at 208.28 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9230,7 +8382,7 @@
 		(dnp no)
 		(uuid "03fe818c-5301-4e15-b5a8-6ffa47fb93a8")
 		(property "Reference" "D76"
-			(at 135.382 202.946 0)
+			(at 211.582 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9240,7 +8392,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 134.874 224.282 0)
+			(at 211.074 71.882 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9251,7 +8403,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 133.35 217.17 0)
+			(at 209.55 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9263,7 +8415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 219.075 0)
+			(at 210.82 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9275,7 +8427,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 132.08 209.55 0)
+			(at 208.28 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9286,7 +8438,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 132.08 209.55 0)
+			(at 208.28 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9297,7 +8449,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 132.08 209.55 0)
+			(at 208.28 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9308,7 +8460,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 132.08 209.55 0)
+			(at 208.28 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9319,7 +8471,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 132.08 209.55 0)
+			(at 208.28 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9352,7 +8504,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 260.35 209.55 0)
+		(at 170.18 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9362,7 +8514,7 @@
 		(dnp no)
 		(uuid "04052749-6a30-4e81-9dd3-e71ec91de72f")
 		(property "Reference" "D28"
-			(at 263.652 202.946 0)
+			(at 173.482 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9372,7 +8524,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 263.144 224.282 0)
+			(at 172.974 104.902 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9383,7 +8535,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 261.62 217.17 0)
+			(at 171.45 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9395,7 +8547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 219.075 0)
+			(at 172.72 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9407,7 +8559,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 260.35 209.55 0)
+			(at 170.18 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9418,7 +8570,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 260.35 209.55 0)
+			(at 170.18 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9429,7 +8581,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 260.35 209.55 0)
+			(at 170.18 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9440,7 +8592,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 260.35 209.55 0)
+			(at 170.18 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9451,7 +8603,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 260.35 209.55 0)
+			(at 170.18 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9748,7 +8900,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 340.36 132.08 0)
+		(at 93.98 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9758,7 +8910,7 @@
 		(dnp no)
 		(uuid "0f76697c-80b7-4b03-9e44-c909ff968d72")
 		(property "Reference" "D53"
-			(at 343.662 125.476 0)
+			(at 97.282 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9768,7 +8920,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 343.154 146.812 0)
+			(at 96.774 104.902 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9779,7 +8931,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 341.63 139.7 0)
+			(at 95.25 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9791,7 +8943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 141.605 0)
+			(at 96.52 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9803,7 +8955,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 340.36 132.08 0)
+			(at 93.98 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9814,7 +8966,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 340.36 132.08 0)
+			(at 93.98 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9825,7 +8977,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 340.36 132.08 0)
+			(at 93.98 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9836,7 +8988,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 340.36 132.08 0)
+			(at 93.98 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9847,7 +8999,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 340.36 132.08 0)
+			(at 93.98 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9880,7 +9032,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 74.93 209.55 0)
+		(at 170.18 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9890,7 +9042,7 @@
 		(dnp no)
 		(uuid "0f9beed1-6c77-472e-99d2-2f82ef39873e")
 		(property "Reference" "D18"
-			(at 78.232 202.946 0)
+			(at 173.482 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9900,7 +9052,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 77.724 224.282 0)
+			(at 172.974 71.882 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9911,7 +9063,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 76.2 217.17 0)
+			(at 171.45 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9923,7 +9075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 219.075 0)
+			(at 172.72 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9935,7 +9087,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 74.93 209.55 0)
+			(at 170.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9946,7 +9098,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 74.93 209.55 0)
+			(at 170.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9957,7 +9109,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 74.93 209.55 0)
+			(at 170.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9968,7 +9120,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 74.93 209.55 0)
+			(at 170.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9979,7 +9131,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 74.93 209.55 0)
+			(at 170.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10790,7 +9942,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 245.11 132.08 0)
+		(at 132.08 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10800,7 +9952,7 @@
 		(dnp no)
 		(uuid "1e530068-68de-42b9-ac90-577f5fdb4d97")
 		(property "Reference" "D48"
-			(at 248.412 125.476 0)
+			(at 135.382 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10810,7 +9962,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 247.904 146.812 0)
+			(at 134.874 104.902 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10821,7 +9973,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 246.38 139.7 0)
+			(at 133.35 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10833,7 +9985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 141.605 0)
+			(at 134.62 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10845,7 +9997,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 245.11 132.08 0)
+			(at 132.08 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10856,7 +10008,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 245.11 132.08 0)
+			(at 132.08 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10867,7 +10019,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 245.11 132.08 0)
+			(at 132.08 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10878,7 +10030,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 245.11 132.08 0)
+			(at 132.08 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10889,7 +10041,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 245.11 132.08 0)
+			(at 132.08 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10922,7 +10074,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 151.13 132.08 0)
+		(at 113.03 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10932,7 +10084,7 @@
 		(dnp no)
 		(uuid "2009accc-893d-4f2b-965b-f5f625d1b0ba")
 		(property "Reference" "D15"
-			(at 154.432 125.476 0)
+			(at 116.332 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10942,7 +10094,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 153.924 146.812 0)
+			(at 115.824 71.882 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10953,7 +10105,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 152.4 139.7 0)
+			(at 114.3 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10965,7 +10117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 141.605 0)
+			(at 115.57 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10977,7 +10129,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 151.13 132.08 0)
+			(at 113.03 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10988,7 +10140,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 151.13 132.08 0)
+			(at 113.03 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10999,7 +10151,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 151.13 132.08 0)
+			(at 113.03 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11010,7 +10162,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 151.13 132.08 0)
+			(at 113.03 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11021,7 +10173,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 151.13 132.08 0)
+			(at 113.03 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11186,7 +10338,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 207.01 209.55 0)
+		(at 341.63 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11196,7 +10348,8 @@
 		(dnp no)
 		(uuid "21aa135a-2df1-4734-a4f8-c7f8e1343918")
 		(property "Reference" "D80"
-			(at 210.312 202.946 0)
+			(at 344.932 50.546 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11206,7 +10359,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 209.804 224.282 0)
+			(at 344.424 71.882 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11217,7 +10370,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 208.28 217.17 0)
+			(at 342.9 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11229,7 +10382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 219.075 0)
+			(at 344.17 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11241,7 +10394,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 207.01 209.55 0)
+			(at 341.63 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11252,7 +10405,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 207.01 209.55 0)
+			(at 341.63 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11263,7 +10416,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 207.01 209.55 0)
+			(at 341.63 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11274,7 +10427,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 207.01 209.55 0)
+			(at 341.63 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11285,7 +10438,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 207.01 209.55 0)
+			(at 341.63 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11318,7 +10471,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 93.98 132.08 0)
+		(at 132.08 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11328,7 +10481,7 @@
 		(dnp no)
 		(uuid "21ef50bf-6f23-412d-b61b-ce55985135c2")
 		(property "Reference" "D17"
-			(at 97.282 125.476 0)
+			(at 135.382 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11338,7 +10491,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 96.774 146.812 0)
+			(at 134.874 71.882 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11349,7 +10502,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 95.25 139.7 0)
+			(at 133.35 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11361,7 +10514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 141.605 0)
+			(at 134.62 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11373,7 +10526,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 93.98 132.08 0)
+			(at 132.08 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11384,7 +10537,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 93.98 132.08 0)
+			(at 132.08 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11395,7 +10548,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 93.98 132.08 0)
+			(at 132.08 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11406,7 +10559,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 93.98 132.08 0)
+			(at 132.08 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11417,7 +10570,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 93.98 132.08 0)
+			(at 132.08 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11575,7 +10728,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 151.13 209.55 0)
+		(at 189.23 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11585,7 +10738,7 @@
 		(dnp no)
 		(uuid "24b6eded-84fa-421d-8dfe-58c779068508")
 		(property "Reference" "D77"
-			(at 154.432 202.946 0)
+			(at 192.532 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11595,7 +10748,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 153.924 224.282 0)
+			(at 192.024 71.882 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11606,7 +10759,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 152.4 217.17 0)
+			(at 190.5 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11618,7 +10771,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 219.075 0)
+			(at 191.77 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11630,7 +10783,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 151.13 209.55 0)
+			(at 189.23 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11641,7 +10794,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 151.13 209.55 0)
+			(at 189.23 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11652,7 +10805,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 151.13 209.55 0)
+			(at 189.23 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11663,7 +10816,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 151.13 209.55 0)
+			(at 189.23 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11674,7 +10827,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 151.13 209.55 0)
+			(at 189.23 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11832,7 +10985,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 226.06 132.08 0)
+		(at 151.13 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11842,7 +10995,7 @@
 		(dnp no)
 		(uuid "2b248bc0-aabb-4f7b-b98f-f3e9d8f3c65c")
 		(property "Reference" "D47"
-			(at 229.362 125.476 0)
+			(at 154.432 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11852,7 +11005,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 228.854 146.812 0)
+			(at 153.924 104.902 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11863,7 +11016,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 227.33 139.7 0)
+			(at 152.4 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11875,7 +11028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 141.605 0)
+			(at 153.67 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11887,7 +11040,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 226.06 132.08 0)
+			(at 151.13 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11898,7 +11051,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 226.06 132.08 0)
+			(at 151.13 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11909,7 +11062,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 226.06 132.08 0)
+			(at 151.13 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11920,7 +11073,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 226.06 132.08 0)
+			(at 151.13 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11931,7 +11084,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 226.06 132.08 0)
+			(at 151.13 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12492,7 +11645,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 132.08 132.08 0)
+		(at 151.13 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12502,7 +11655,7 @@
 		(dnp no)
 		(uuid "32f65639-53a1-410d-bf82-f6e79bc813ea")
 		(property "Reference" "D14"
-			(at 135.382 125.476 0)
+			(at 154.432 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12512,7 +11665,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 134.874 146.812 0)
+			(at 153.924 71.882 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12523,7 +11676,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 133.35 139.7 0)
+			(at 152.4 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12535,7 +11688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 141.605 0)
+			(at 153.67 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12547,7 +11700,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 132.08 132.08 0)
+			(at 151.13 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12558,7 +11711,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 132.08 132.08 0)
+			(at 151.13 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12569,7 +11722,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 132.08 132.08 0)
+			(at 151.13 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12580,7 +11733,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 132.08 132.08 0)
+			(at 151.13 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12591,7 +11744,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 132.08 132.08 0)
+			(at 151.13 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12624,7 +11777,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 298.45 209.55 0)
+		(at 189.23 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12634,7 +11787,7 @@
 		(dnp no)
 		(uuid "36728b62-0991-4c50-aa3a-891a9d9e6061")
 		(property "Reference" "D30"
-			(at 301.752 202.946 0)
+			(at 192.532 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12644,7 +11797,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 301.244 224.282 0)
+			(at 192.024 104.902 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12655,7 +11808,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 299.72 217.17 0)
+			(at 190.5 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12667,7 +11820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 300.99 219.075 0)
+			(at 191.77 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12679,7 +11832,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 298.45 209.55 0)
+			(at 189.23 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12690,7 +11843,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 298.45 209.55 0)
+			(at 189.23 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12701,7 +11854,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 298.45 209.55 0)
+			(at 189.23 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12712,7 +11865,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 298.45 209.55 0)
+			(at 189.23 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12723,7 +11876,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 298.45 209.55 0)
+			(at 189.23 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14133,7 +13286,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 170.18 132.08 0)
+		(at 284.48 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14143,7 +13296,7 @@
 		(dnp no)
 		(uuid "442bba77-f740-4ce3-b4a7-759b15009f8c")
 		(property "Reference" "D44"
-			(at 173.482 125.476 0)
+			(at 287.782 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14153,7 +13306,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 172.974 146.812 0)
+			(at 287.274 104.902 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14164,7 +13317,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 171.45 139.7 0)
+			(at 285.75 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14176,7 +13329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 141.605 0)
+			(at 287.02 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14188,7 +13341,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 170.18 132.08 0)
+			(at 284.48 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14199,7 +13352,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 170.18 132.08 0)
+			(at 284.48 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14210,7 +13363,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 170.18 132.08 0)
+			(at 284.48 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14221,7 +13374,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 170.18 132.08 0)
+			(at 284.48 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14232,7 +13385,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 170.18 132.08 0)
+			(at 284.48 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15053,7 +14206,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 279.4 209.55 0)
+		(at 227.33 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15063,7 +14216,7 @@
 		(dnp no)
 		(uuid "4fbf85a9-de7c-43b5-9b5f-992439c7d68d")
 		(property "Reference" "D83"
-			(at 282.702 202.946 0)
+			(at 230.632 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15073,7 +14226,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 282.194 224.282 0)
+			(at 230.124 104.902 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15084,7 +14237,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 280.67 217.17 0)
+			(at 228.6 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15096,7 +14249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 219.075 0)
+			(at 229.87 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15108,7 +14261,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 279.4 209.55 0)
+			(at 227.33 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15119,7 +14272,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 279.4 209.55 0)
+			(at 227.33 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15130,7 +14283,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 279.4 209.55 0)
+			(at 227.33 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15141,7 +14294,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 279.4 209.55 0)
+			(at 227.33 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15152,7 +14305,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 279.4 209.55 0)
+			(at 227.33 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17557,7 +16710,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 336.55 209.55 0)
+		(at 208.28 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17567,7 +16720,7 @@
 		(dnp no)
 		(uuid "76f4d0c4-f2d1-449a-b194-af7a5b2bb4bf")
 		(property "Reference" "D36"
-			(at 339.852 202.946 0)
+			(at 211.582 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17577,7 +16730,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 339.344 224.282 0)
+			(at 211.074 104.902 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17588,7 +16741,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 337.82 217.17 0)
+			(at 209.55 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17600,7 +16753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 339.09 219.075 0)
+			(at 210.82 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17612,7 +16765,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 336.55 209.55 0)
+			(at 208.28 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17623,7 +16776,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 336.55 209.55 0)
+			(at 208.28 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17634,7 +16787,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 336.55 209.55 0)
+			(at 208.28 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17645,7 +16798,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 336.55 209.55 0)
+			(at 208.28 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17656,7 +16809,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 336.55 209.55 0)
+			(at 208.28 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17821,7 +16974,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 207.01 171.45 0)
+		(at 303.53 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17831,7 +16984,7 @@
 		(dnp no)
 		(uuid "79d02c05-e8e0-485a-8904-6c28cb866b45")
 		(property "Reference" "D62"
-			(at 210.312 164.846 0)
+			(at 306.832 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17841,7 +16994,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 209.804 186.182 0)
+			(at 306.324 71.882 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17852,7 +17005,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 208.28 179.07 0)
+			(at 304.8 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17864,7 +17017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 180.975 0)
+			(at 306.07 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17876,7 +17029,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 207.01 171.45 0)
+			(at 303.53 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17887,7 +17040,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 207.01 171.45 0)
+			(at 303.53 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17898,7 +17051,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 207.01 171.45 0)
+			(at 303.53 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17909,7 +17062,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 207.01 171.45 0)
+			(at 303.53 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17920,7 +17073,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 207.01 171.45 0)
+			(at 303.53 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18163,7 +17316,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 187.96 132.08 0)
+		(at 303.53 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18173,7 +17326,7 @@
 		(dnp no)
 		(uuid "7f7d4355-f654-4e13-99d0-8bb644313bb9")
 		(property "Reference" "D45"
-			(at 191.262 125.476 0)
+			(at 306.832 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18183,7 +17336,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 190.754 146.812 0)
+			(at 306.324 104.902 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18194,7 +17347,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 189.23 139.7 0)
+			(at 304.8 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18206,7 +17359,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 141.605 0)
+			(at 306.07 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18218,7 +17371,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 187.96 132.08 0)
+			(at 303.53 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18229,7 +17382,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 187.96 132.08 0)
+			(at 303.53 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18240,7 +17393,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 187.96 132.08 0)
+			(at 303.53 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18251,7 +17404,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 187.96 132.08 0)
+			(at 303.53 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18262,7 +17415,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 187.96 132.08 0)
+			(at 303.53 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18582,7 +17735,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 283.21 171.45 0)
+		(at 265.43 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18592,7 +17745,7 @@
 		(dnp no)
 		(uuid "89d754f8-0547-4dff-82a3-ce7db8d2be4b")
 		(property "Reference" "D66"
-			(at 286.512 164.846 0)
+			(at 268.732 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18602,7 +17755,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 286.004 186.182 0)
+			(at 268.224 71.882 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18613,7 +17766,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 284.48 179.07 0)
+			(at 266.7 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18625,7 +17778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 285.75 180.975 0)
+			(at 267.97 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18637,7 +17790,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 283.21 171.45 0)
+			(at 265.43 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18648,7 +17801,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 283.21 171.45 0)
+			(at 265.43 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18659,7 +17812,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 283.21 171.45 0)
+			(at 265.43 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18670,7 +17823,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 283.21 171.45 0)
+			(at 265.43 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18681,7 +17834,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 283.21 171.45 0)
+			(at 265.43 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19985,7 +19138,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 93.98 171.45 0)
+		(at 360.68 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19995,7 +19148,8 @@
 		(dnp no)
 		(uuid "9551dda1-2f65-4cd3-b621-e50b5bf086fe")
 		(property "Reference" "D56"
-			(at 97.282 164.846 0)
+			(at 363.982 50.546 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20005,7 +19159,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 96.774 186.182 0)
+			(at 363.474 71.882 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20016,7 +19170,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 95.25 179.07 0)
+			(at 361.95 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20028,7 +19182,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 180.975 0)
+			(at 363.22 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20040,7 +19194,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 93.98 171.45 0)
+			(at 360.68 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20051,7 +19205,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 93.98 171.45 0)
+			(at 360.68 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20062,7 +19216,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 93.98 171.45 0)
+			(at 360.68 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20073,7 +19227,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 93.98 171.45 0)
+			(at 360.68 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20084,7 +19238,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 93.98 171.45 0)
+			(at 360.68 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20249,7 +19403,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 264.16 171.45 0)
+		(at 284.48 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20259,7 +19413,7 @@
 		(dnp no)
 		(uuid "9ad57879-182a-48e9-947a-c154990de610")
 		(property "Reference" "D65"
-			(at 267.462 164.846 0)
+			(at 287.782 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20269,7 +19423,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 266.954 186.182 0)
+			(at 287.274 71.882 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20280,7 +19434,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 265.43 179.07 0)
+			(at 285.75 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20292,7 +19446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 180.975 0)
+			(at 287.02 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20304,7 +19458,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 264.16 171.45 0)
+			(at 284.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20315,7 +19469,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 264.16 171.45 0)
+			(at 284.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20326,7 +19480,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 264.16 171.45 0)
+			(at 284.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20337,7 +19491,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 264.16 171.45 0)
+			(at 284.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20348,7 +19502,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 264.16 171.45 0)
+			(at 284.48 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20973,7 +20127,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 302.26 132.08 0)
+		(at 113.03 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20983,7 +20137,7 @@
 		(dnp no)
 		(uuid "a8f24b17-4708-4f1e-bb84-0f2eb80e8478")
 		(property "Reference" "D51"
-			(at 305.562 125.476 0)
+			(at 116.332 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20993,7 +20147,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 305.054 146.812 0)
+			(at 115.824 104.902 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21004,7 +20158,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 303.53 139.7 0)
+			(at 114.3 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21016,7 +20170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 304.8 141.605 0)
+			(at 115.57 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21028,7 +20182,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 302.26 132.08 0)
+			(at 113.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21039,7 +20193,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 302.26 132.08 0)
+			(at 113.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21050,7 +20204,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 302.26 132.08 0)
+			(at 113.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21061,7 +20215,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 302.26 132.08 0)
+			(at 113.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21072,7 +20226,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 302.26 132.08 0)
+			(at 113.03 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21392,7 +20546,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 317.5 209.55 0)
+		(at 246.38 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21402,7 +20556,7 @@
 		(dnp no)
 		(uuid "ad88d9ec-eb9f-49df-bc4a-2d100482087a")
 		(property "Reference" "D13"
-			(at 320.802 202.946 0)
+			(at 249.682 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21412,7 +20566,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 320.294 224.282 0)
+			(at 249.174 104.902 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21423,7 +20577,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 318.77 217.17 0)
+			(at 247.65 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21435,7 +20589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 219.075 0)
+			(at 248.92 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21447,7 +20601,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 317.5 209.55 0)
+			(at 246.38 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21458,7 +20612,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 317.5 209.55 0)
+			(at 246.38 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21469,7 +20623,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 317.5 209.55 0)
+			(at 246.38 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21480,7 +20634,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 317.5 209.55 0)
+			(at 246.38 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21491,7 +20645,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 317.5 209.55 0)
+			(at 246.38 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21906,7 +21060,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 340.36 171.45 0)
+		(at 246.38 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21916,7 +21070,7 @@
 		(dnp no)
 		(uuid "b2f99cfd-b363-46f1-8a4c-e8e20f06328c")
 		(property "Reference" "D69"
-			(at 343.662 164.846 0)
+			(at 249.682 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21926,7 +21080,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 343.154 186.182 0)
+			(at 249.174 71.882 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21937,7 +21091,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 341.63 179.07 0)
+			(at 247.65 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21949,7 +21103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 342.9 180.975 0)
+			(at 248.92 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21961,7 +21115,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 340.36 171.45 0)
+			(at 246.38 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21972,7 +21126,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 340.36 171.45 0)
+			(at 246.38 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21983,7 +21137,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 340.36 171.45 0)
+			(at 246.38 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21994,7 +21148,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 340.36 171.45 0)
+			(at 246.38 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22005,7 +21159,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 340.36 171.45 0)
+			(at 246.38 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23268,7 +22422,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 359.41 171.45 0)
+		(at 227.33 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23278,7 +22432,7 @@
 		(dnp no)
 		(uuid "c4ac24c2-834a-467f-8afe-6d2c68cc0dbf")
 		(property "Reference" "D70"
-			(at 362.712 164.846 0)
+			(at 230.632 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23288,7 +22442,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 362.204 186.182 0)
+			(at 230.124 71.882 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23299,7 +22453,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 360.68 179.07 0)
+			(at 228.6 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23311,7 +22465,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 361.95 180.975 0)
+			(at 229.87 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23323,7 +22477,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 359.41 171.45 0)
+			(at 227.33 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23334,7 +22488,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 359.41 171.45 0)
+			(at 227.33 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23345,7 +22499,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 359.41 171.45 0)
+			(at 227.33 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23356,7 +22510,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 359.41 171.45 0)
+			(at 227.33 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23367,7 +22521,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 359.41 171.45 0)
+			(at 227.33 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24021,7 +23175,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 93.98 209.55 0)
+		(at 55.88 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24031,7 +23185,7 @@
 		(dnp no)
 		(uuid "d0ef55eb-333a-407f-b00d-4a6dac802224")
 		(property "Reference" "D84"
-			(at 97.282 202.946 0)
+			(at 59.182 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24041,7 +23195,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 96.774 224.282 0)
+			(at 58.674 104.902 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24052,7 +23206,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 95.25 217.17 0)
+			(at 57.15 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24064,7 +23218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 219.075 0)
+			(at 58.42 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24076,7 +23230,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 93.98 209.55 0)
+			(at 55.88 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24087,7 +23241,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 93.98 209.55 0)
+			(at 55.88 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24098,7 +23252,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 93.98 209.55 0)
+			(at 55.88 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24109,7 +23263,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 93.98 209.55 0)
+			(at 55.88 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24120,7 +23274,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 93.98 209.55 0)
+			(at 55.88 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25743,7 +24897,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 170.18 209.55 0)
+		(at 74.93 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25753,7 +24907,7 @@
 		(dnp no)
 		(uuid "ee45508d-764d-473d-beeb-f7122b5acfea")
 		(property "Reference" "D78"
-			(at 173.482 202.946 0)
+			(at 78.232 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25763,7 +24917,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 172.974 224.282 0)
+			(at 77.724 104.902 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25774,7 +24928,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 171.45 217.17 0)
+			(at 76.2 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25786,7 +24940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 219.075 0)
+			(at 77.47 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25798,7 +24952,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 170.18 209.55 0)
+			(at 74.93 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25809,7 +24963,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 170.18 209.55 0)
+			(at 74.93 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25820,7 +24974,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 170.18 209.55 0)
+			(at 74.93 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25831,7 +24985,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 170.18 209.55 0)
+			(at 74.93 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25842,7 +24996,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 170.18 209.55 0)
+			(at 74.93 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25875,7 +25029,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 170.18 171.45 0)
+		(at 322.58 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25885,7 +25039,7 @@
 		(dnp no)
 		(uuid "eea7747d-e53f-4ee8-b9c9-205088bd6a24")
 		(property "Reference" "D60"
-			(at 173.482 164.846 0)
+			(at 325.882 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25895,7 +25049,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 172.974 186.182 0)
+			(at 325.374 71.882 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25906,7 +25060,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 171.45 179.07 0)
+			(at 323.85 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25918,7 +25072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 180.975 0)
+			(at 325.12 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25930,7 +25084,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 170.18 171.45 0)
+			(at 322.58 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25941,7 +25095,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 170.18 171.45 0)
+			(at 322.58 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25952,7 +25106,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 170.18 171.45 0)
+			(at 322.58 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25963,7 +25117,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 170.18 171.45 0)
+			(at 322.58 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25974,7 +25128,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 170.18 171.45 0)
+			(at 322.58 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26460,7 +25614,7 @@
 	)
 	(symbol
 		(lib_id "metro-tracker:SK6812-EC20")
-		(at 55.88 132.08 0)
+		(at 265.43 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26470,7 +25624,7 @@
 		(dnp no)
 		(uuid "fdd3632a-cfb2-4089-971a-83074e0a2cba")
 		(property "Reference" "D37"
-			(at 59.182 125.476 0)
+			(at 268.732 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26480,7 +25634,7 @@
 			)
 		)
 		(property "Value" "SK6812-EC20"
-			(at 58.674 146.812 0)
+			(at 268.224 104.902 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26491,7 +25645,7 @@
 			)
 		)
 		(property "Footprint" "metro-tracker:RGB_LED_2020"
-			(at 57.15 139.7 0)
+			(at 266.7 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26503,7 +25657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 141.605 0)
+			(at 267.97 99.695 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26515,7 +25669,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 55.88 132.08 0)
+			(at 265.43 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26526,7 +25680,7 @@
 			)
 		)
 		(property "Digikey Part Number" "1830-IN-PI20TAT5R5G5BCT-ND"
-			(at 55.88 132.08 0)
+			(at 265.43 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26537,7 +25691,7 @@
 			)
 		)
 		(property "JLCPCB Part Number" "C2909058"
-			(at 55.88 132.08 0)
+			(at 265.43 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26548,7 +25702,7 @@
 			)
 		)
 		(property "Manufacturer Part Name JLCPCB" "SK6812-EC20"
-			(at 55.88 132.08 0)
+			(at 265.43 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26559,7 +25713,7 @@
 			)
 		)
 		(property "Manufacturer Part Number Digikey" "IN-PI20TAT5R5G5B"
-			(at 55.88 132.08 0)
+			(at 265.43 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

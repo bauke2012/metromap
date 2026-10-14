@@ -4576,6 +4576,22 @@
 		(uuid "f832208d-3762-4361-b2e3-4dec5339d606")
 	)
 	(no_connect
+		(at 186.69 109.22)
+		(uuid "05814bd4-5eb2-4629-9367-d41b9ed2de63")
+	)
+	(no_connect
+		(at 186.69 101.6)
+		(uuid "05e00395-9de4-4a18-b257-5df0efbf31dc")
+	)
+	(no_connect
+		(at 186.69 93.98)
+		(uuid "0b79618a-87a5-409b-91db-d8b12db7be9f")
+	)
+	(no_connect
+		(at 217.17 96.52)
+		(uuid "1138bced-3d92-4360-a8e4-a0483062db1c")
+	)
+	(no_connect
 		(at 186.69 76.2)
 		(uuid "1da8f5d2-6b5f-4f65-8527-2743bf5ce18c")
 	)
@@ -4584,12 +4600,52 @@
 		(uuid "31a5d227-b189-4a1e-8ef7-37d2f8ad47a0")
 	)
 	(no_connect
+		(at 217.17 91.44)
+		(uuid "351b3a68-9011-4c98-8b6f-3f66f7f7fabb")
+	)
+	(no_connect
+		(at 186.69 106.68)
+		(uuid "446eae92-f1da-4edc-8967-b1d8f62f3c6c")
+	)
+	(no_connect
+		(at 186.69 99.06)
+		(uuid "478e597f-38a9-40a4-b5e1-a7bbed9239ea")
+	)
+	(no_connect
+		(at 186.69 96.52)
+		(uuid "5de8e2b1-f7be-4bda-8ede-e740b8e9d631")
+	)
+	(no_connect
 		(at 52.07 101.6)
 		(uuid "6a00eb9a-1c9c-4fa6-a9e3-e17be7dc418f")
 	)
 	(no_connect
+		(at 186.69 104.14)
+		(uuid "a4916dde-5e49-46d7-9b3c-24532ef8d6a3")
+	)
+	(no_connect
+		(at 217.17 93.98)
+		(uuid "a59f517c-1216-4a6e-a420-83ebc0112ca3")
+	)
+	(no_connect
+		(at 217.17 109.22)
+		(uuid "ab2299ee-c5b5-41ad-a2d7-dc5c8f6b545f")
+	)
+	(no_connect
 		(at 52.07 99.06)
 		(uuid "b384307e-3481-4b32-a83c-41d1c7e9c3bd")
+	)
+	(no_connect
+		(at 217.17 99.06)
+		(uuid "b83f0452-ba45-4be6-aa57-203bf2e43da1")
+	)
+	(no_connect
+		(at 217.17 106.68)
+		(uuid "c0f16adc-22cf-44fa-9645-dfad529c5e34")
+	)
+	(no_connect
+		(at 186.69 91.44)
+		(uuid "c357acec-c71e-4efc-b895-300ec67e22cc")
 	)
 	(no_connect
 		(at 83.82 72.39)
@@ -5037,6 +5093,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 68.58) (xy 389.89 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e4cabf-0a7e-4493-b41f-6fc5e0f72b36")
+	)
+	(wire
+		(pts
 			(xy 29.21 111.76) (xy 24.13 111.76)
 		)
 		(stroke
@@ -5094,16 +5160,6 @@
 			(type default)
 		)
 		(uuid "5e068428-292b-4c81-88af-1bc0b73bc6f4")
-	)
-	(wire
-		(pts
-			(xy 175.26 109.22) (xy 186.69 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e9a8748-53c7-4299-9130-c37b18df027e")
 	)
 	(wire
 		(pts
@@ -5867,6 +5923,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 59.69) (xy 379.73 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be0da23d-9845-4291-b6c5-48b2189644c0")
+	)
+	(wire
+		(pts
 			(xy 52.07 86.36) (xy 54.61 86.36)
 		)
 		(stroke
@@ -6167,6 +6233,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 69.85) (xy 379.73 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f82fabbe-4aa2-4049-a009-6604e73f2b36")
+	)
+	(wire
+		(pts
 			(xy 251.46 109.22) (xy 260.35 109.22)
 		)
 		(stroke
@@ -6235,6 +6311,16 @@
 		)
 		(uuid "ff7e865f-767b-4bae-84ee-a0a75b825c24")
 	)
+	(wire
+		(pts
+			(xy 389.89 60.96) (xy 389.89 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9a9065-bf68-40ac-97a5-6360ac6931cf")
+	)
 	(label "CON_USB_D-"
 		(at 69.85 86.36 0)
 		(effects
@@ -6254,16 +6340,6 @@
 			(justify left bottom)
 		)
 		(uuid "30ec2aa6-a074-441c-bf66-985ac5167791")
-	)
-	(label "TOUCH"
-		(at 175.26 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5236ac57-bfa3-44c0-806d-906e8c5cc946")
 	)
 	(label "SDA"
 		(at 229.87 116.84 180)
@@ -6304,6 +6380,26 @@
 			(justify left bottom)
 		)
 		(uuid "acc2ade6-0986-4d99-870e-8eca388a7790")
+	)
+	(label "SH"
+		(at 27.94 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7b68623-6bed-46d0-9fd2-b417c6dea669")
+	)
+	(label "VBUS"
+		(at 63.5 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c36d81c4-3333-41dc-a8af-e1f49765bba4")
 	)
 	(label "~{OE}"
 		(at 250.19 74.93 0)
@@ -8877,7 +8973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.7"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 380.6952 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10947,6 +11043,132 @@
 			(project "metromap"
 				(path "/933613dd-e874-4353-aa56-f5aedaa7dcf5"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 389.89 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcb29c72-cebc-4a0c-b147-7c14a53697d1")
+		(property "Reference" "C59"
+			(at 393.7 62.6109 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 393.7 65.1509 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 390.8552 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 389.89 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 389.89 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "732-6390-1-ND"
+			(at 389.89 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C2161511"
+			(at 389.89 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Name JLCPCB" "16SVPG47M"
+			(at 389.89 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number Digikey" "875105142001"
+			(at 389.89 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "961c9198-96fb-45a8-b77b-89ba967432e2")
+		)
+		(pin "2"
+			(uuid "496e0806-5cd2-444d-b699-ef3c1b11fec7")
+		)
+		(instances
+			(project "metromap"
+				(path "/933613dd-e874-4353-aa56-f5aedaa7dcf5"
+					(reference "C59")
 					(unit 1)
 				)
 			)
