@@ -81,7 +81,12 @@
           "width": 0.28
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|87111467|103255000|8f5620b6-be94-4441-808b-b07f8e1e8ff5|b8f8fdb2-4a97-446f-9bb7-0398d1bd140e",
+          "Intentional, backup"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -902,7 +907,7 @@
         "uuid": "933613dd-e874-4353-aa56-f5aedaa7dcf5"
       }
     ],
-    "used_designators": "U7,#PWR11",
+    "used_designators": "U7,#PWR11,SW1-2",
     "variants": []
   },
   "sheets": [

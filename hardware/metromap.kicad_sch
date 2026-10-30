@@ -7773,7 +7773,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse"
+		(property "Value" "3A"
 			(at 105.41 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7817,6 +7817,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part Number" "C269149"
+			(at 105.41 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Name JLCPCB" "SMD1812B300TFT"
+			(at 105.41 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7de67652-e93c-4016-b1dc-9e85b188030f")
 		)
@@ -7827,6 +7849,86 @@
 			(project "metromap"
 				(path "/933613dd-e874-4353-aa56-f5aedaa7dcf5"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "metro-tracker:XUNPU_TS-1088-AR02016")
+		(at 212.09 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06dd931d-cbb8-49e7-a3a9-b07a66d55c37")
+		(property "Reference" "SW1"
+			(at 212.09 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XUNPU_TS-1088-AR02016"
+			(at 212.09 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "metro-tracker:TS-1088-AR02016"
+			(at 212.09 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 212.09 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1d35994-b52f-4cf0-abde-422c6d577414")
+		)
+		(pin "2"
+			(uuid "4b602163-a07b-4d88-af59-0e6d9e668288")
+		)
+		(instances
+			(project "metromap"
+				(path "/933613dd-e874-4353-aa56-f5aedaa7dcf5"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -9486,6 +9588,88 @@
 		)
 	)
 	(symbol
+		(lib_id "metro-tracker:XUNPU_TS-1088-AR02016")
+		(at 218.44 118.11 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45291cc9-71d5-4b3f-af22-17f467b91305")
+		(property "Reference" "SW2"
+			(at 219.71 116.8399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "XUNPU_TS-1088-AR02016"
+			(at 219.71 119.3799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "metro-tracker:TS-1088-AR02016"
+			(at 213.36 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 218.44 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b64376de-0d0b-4120-8ad6-030b07aa3459")
+		)
+		(pin "1"
+			(uuid "47d9f560-8b6a-444b-a2d2-52c8059c6a63")
+		)
+		(instances
+			(project "metromap"
+				(path "/933613dd-e874-4353-aa56-f5aedaa7dcf5"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 246.38 111.76 0)
 		(unit 1)
@@ -10078,109 +10262,6 @@
 			(project "metromap"
 				(path "/933613dd-e874-4353-aa56-f5aedaa7dcf5"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "metro-tracker:XUNPU_TS-1088-AR02016")
-		(at 212.09 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53771fb2-6731-45a7-a64f-53144ab0c7c0")
-		(property "Reference" "SW1"
-			(at 212.09 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XUNPU_TS-1088-AR02016"
-			(at 212.09 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "metro-tracker:TS-1088-AR02016"
-			(at 212.09 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 212.09 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part Number" "C720477"
-			(at 212.09 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Name JLCPCB" "TS-1088-AR02016"
-			(at 212.09 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "60277a20-68f4-47c6-b00f-6e29eb6c5f23")
-		)
-		(pin "2"
-			(uuid "8ddb6759-2b7c-4df7-b1b2-fdd670f83155")
-		)
-		(instances
-			(project "metromap"
-				(path "/933613dd-e874-4353-aa56-f5aedaa7dcf5"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -13822,111 +13903,6 @@
 			(project "metromap"
 				(path "/933613dd-e874-4353-aa56-f5aedaa7dcf5"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "metro-tracker:XUNPU_TS-1088-AR02016")
-		(at 218.44 118.11 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d20bf9bc-046a-4bb4-a029-bb1afb317387")
-		(property "Reference" "SW2"
-			(at 222.25 118.1099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "XUNPU_TS-1088-AR02016"
-			(at 222.25 119.3799 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "metro-tracker:TS-1088-AR02016"
-			(at 223.52 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 218.44 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part Number" "C720477"
-			(at 218.44 118.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Name JLCPCB" "TS-1088-AR02016"
-			(at 218.44 118.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3ba68007-a0d2-4454-96d2-be9e00167a23")
-		)
-		(pin "1"
-			(uuid "f7a72160-b405-4dce-92a1-c4adee27b6c6")
-		)
-		(instances
-			(project "metromap"
-				(path "/933613dd-e874-4353-aa56-f5aedaa7dcf5"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
