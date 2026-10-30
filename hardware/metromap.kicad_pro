@@ -902,7 +902,7 @@
         "uuid": "933613dd-e874-4353-aa56-f5aedaa7dcf5"
       }
     ],
-    "used_designators": "D1-2,#PWR17-19,R15-16,U6",
+    "used_designators": "U7,#PWR11",
     "variants": []
   },
   "sheets": [
