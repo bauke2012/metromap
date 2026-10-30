@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "metro-tracker") (type "KiCad") (uri "${KIPRJMOD}/library/metro-tracker.kicad_sym") (options "") (descr ""))
+)
