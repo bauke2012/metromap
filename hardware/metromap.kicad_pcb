@@ -19771,6 +19771,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer Part Name JLCPCB" "CL10A105KB8NNNC"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "67783cec-e3fa-4c37-a8dc-2c46712d4afe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C15849"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "73a7cc1f-7233-4b63-9443-52c8ddd94f7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 90)
 			(layer "B.SilkS")
@@ -20834,6 +20858,34 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer Part Name JLCPCB" "TS-1088-AR02016"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a3e2cde7-b144-4813-9247-e9f4f25f19c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C720477"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "15091be5-d41a-444e-a3e9-9b6d70ee817e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/06dd931d-cbb8-49e7-a3a9-b07a66d55c37")
 		(sheetname "/")
 		(sheetfile "metromap.kicad_sch")
@@ -21675,7 +21727,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "100u"
 			(at 0 -4.349999 0)
 			(layer "B.Fab")
 			(uuid "14f08112-d6b0-499b-8033-ef85571a6f9e")
@@ -22214,6 +22266,30 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "aeec8d2f-344a-4bd4-88a7-92d3b0e7ed1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Name JLCPCB" "SN74AHCT1G125DBVR"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "18235cd1-d592-4de5-bd35-e27a1728c755")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C7484"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6c98eabb-6780-41c3-8f17-4096abe07fce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22814,7 +22890,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "100u"
 			(at 0 -4.349999 0)
 			(layer "B.Fab")
 			(uuid "85dc41aa-75b6-4e6d-917d-9d25d3004f02")
@@ -23353,6 +23429,30 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8e79abe7-ad6d-4bc9-8f03-6fc7683837e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Name JLCPCB" "0603WAF1002T5E"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "01731511-178f-4b39-a1fc-dcd4e39a83db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C25804"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a9c982e1-48aa-4b9a-8e50-1c9c9e7fe950")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25689,6 +25789,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer Part Name JLCPCB" "0603WAF1002T5E"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "87900237-bf46-489c-a85f-a8213d07bef7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C25804"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7a414f1a-c0f5-4f29-920f-5f898d74327d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -26523,6 +26647,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer Part Name JLCPCB" "0603WAF4701T5E"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "026f0b6f-072b-43a2-a38b-661b91dadd33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C23162"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "22e46439-1d78-4ec8-8605-3a0ed89ab64f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 90)
 			(layer "B.SilkS")
@@ -26907,6 +27055,30 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "127e2380-ef64-4ea7-bb1c-18c7a1eec87e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Name JLCPCB" "0603WAF1002T5E"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "68c58f28-8837-4c1a-bbbd-03c3710ddf0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C25804"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7e856a8b-9f77-4386-8899-2cb2cf4f45e0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27965,6 +28137,30 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ee3e52fe-4694-475d-82e0-5bbad109ead8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Name JLCPCB" "0603WAF1002T5E"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a607a38a-cde2-46cc-ab7a-64ac2685fc6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C25804"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "663bfa8e-db5f-46c8-a2f5-4139ea20108d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29336,6 +29532,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer Part Name JLCPCB" "0603WAF1002T5E"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cf30ef07-fd36-41f5-b5be-b8506a5dfa60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C25804"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "286d6444-8171-4997-aefa-931703e1d9f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 90)
 			(layer "B.SilkS")
@@ -30173,6 +30393,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer Part Name JLCPCB" "0603WAF1003T5E"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "41a48ba2-95c4-41f0-8b25-57c0e4dc6c6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C25803"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e98f4c99-23d9-4b39-813d-e5761b9a77d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 90)
 			(layer "B.SilkS")
@@ -30577,6 +30821,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -30915,6 +31160,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -32242,6 +32488,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer Part Name JLCPCB" "CL10A105KB8NNNC"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c94925fa-feeb-4544-a0cc-f3e5cccb8271")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C15849"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1f9d76d4-14b1-488d-88b4-46dce8a8d0cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -32737,6 +33007,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -33943,6 +34214,30 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b1e4dedf-54ec-465e-bfcb-b6d8aab35acd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Name JLCPCB" "0603WAF330JT5E"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c5531275-5d43-4c4a-881a-7f521fabf4c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C23140"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4d6b814f-d626-46c8-bb88-7b568a794381")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35236,6 +35531,34 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer Part Name JLCPCB" "TS-1088-AR02016"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b5a96e05-0127-42b4-9c6d-3ef2217d87bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C720477"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7a90e3fd-8165-43d8-9176-866a5f38dab1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/45291cc9-71d5-4b3f-af22-17f467b91305")
 		(sheetname "/")
 		(sheetfile "metromap.kicad_sch")
@@ -35678,6 +36001,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -35995,6 +36319,30 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f2c368d3-3830-4e7d-af04-36b804a5595b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Name JLCPCB" "CH221K"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3ab98390-8697-4f3a-846b-9e4f4d36691d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C5125736"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bcfd4709-5098-458e-9a8b-07642a8d48cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36363,6 +36711,30 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ca2cb67c-17d6-49e7-bcb7-b44f667978d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Name JLCPCB" "AP2112K-3.3TRG1"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "56754a03-89e6-4166-b10e-46347b59f27b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C51118"
+			(at 0 0 270)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "979bcada-0cbb-4190-92d0-df8658e9f36b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37440,6 +37812,30 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ee531518-f58f-4a19-8f7d-e55813db1cc5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Name JLCPCB" "VEML7700-TR"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d95862b8-05d5-4d18-b85a-01d51a625774")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C504893"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a6c1fc37-1e7b-4f44-9a8b-99e171ed41bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38696,6 +39092,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer Part Name JLCPCB" "0603WAF1002T5E"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a154b66f-7e4f-4646-9bef-dd745002ab4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C25804"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8d30b3f3-359c-4cad-9410-6276b4c050ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 90)
 			(layer "B.SilkS")
@@ -39077,6 +39497,30 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e7238d48-5946-463b-8324-fdc56a3474f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Name JLCPCB" "0603WAF4701T5E"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "40f5ba39-48b5-4668-ad91-a0b32955e557")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C23162"
+			(at 0 0 90)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "12228798-af78-43b4-a83a-f3badfe00627")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40589,6 +41033,30 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer Part Name JLCPCB" "0603WAF1001T5E"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2de7e271-a4f3-4bd7-ab51-b14dc70cab5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C21190"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e8c6905c-fb63-4c9c-bbc1-19ea42a2591e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -40972,6 +41440,30 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1df542c2-f392-4a4b-be48-765c4cd73ce5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Name JLCPCB" "0603WAF1002T5E"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f99096e5-8d74-48c2-8d4c-2e6eb19e2b66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "JLCPCB Part Number" "C25804"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c010b3f-169a-4abe-a188-854bcc0a7a0b")
 			(effects
 				(font
 					(size 1.27 1.27)
