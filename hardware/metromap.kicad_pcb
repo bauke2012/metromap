@@ -19779,6 +19779,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -19791,6 +19792,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -22281,6 +22283,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -22293,6 +22296,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -23444,6 +23448,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -23456,6 +23461,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -25797,6 +25803,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -25809,6 +25816,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -26655,6 +26663,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -26667,6 +26676,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -27070,6 +27080,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -27082,6 +27093,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -28152,6 +28164,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -28164,6 +28177,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -29540,6 +29554,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -29552,6 +29567,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -30401,6 +30417,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -30413,6 +30430,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -32496,6 +32514,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -32508,6 +32527,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -34229,6 +34249,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -34241,6 +34262,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -36334,6 +36356,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -36346,6 +36369,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -36726,6 +36750,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -36738,6 +36763,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -37827,6 +37853,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -37839,6 +37866,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -37846,17 +37874,21 @@
 		(path "/a609f419-7205-49d2-8df3-f7fabb7de427")
 		(sheetname "/")
 		(sheetfile "metromap.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "1" "2" "3")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.175 3.400001)
-			(end -1.175 -3.400001)
+			(start -1.175 3.4)
+			(end -1.175 -3.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "4d322c4a-4622-4d21-91ce-3ee3c6bb1fcd")
+		)
+		(fp_line
+			(start 1.175 3.4)
+			(end -1.175 3.4)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -37865,17 +37897,7 @@
 			(uuid "06b88aa6-71c3-4f1e-9989-5a94dc074a75")
 		)
 		(fp_line
-			(start 1.175 3.400001)
-			(end -1.175 3.400001)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "be4c0fab-a675-4f50-a691-07ead4ead18e")
-		)
-		(fp_line
-			(start 1.175 3.400001)
+			(start 1.175 3.4)
 			(end 1.175 2.7)
 			(stroke
 				(width 0.127)
@@ -37885,17 +37907,17 @@
 			(uuid "e82028a0-7164-4001-af4f-bcd447ac5d00")
 		)
 		(fp_line
-			(start -1.175 -3.400001)
-			(end 1.175 -3.400001)
+			(start -1.175 -3.4)
+			(end 1.175 -3.4)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "4d322c4a-4622-4d21-91ce-3ee3c6bb1fcd")
+			(uuid "be4c0fab-a675-4f50-a691-07ead4ead18e")
 		)
 		(fp_line
-			(start 1.175 -3.400001)
+			(start 1.175 -3.4)
 			(end 1.175 -2.7)
 			(stroke
 				(width 0.127)
@@ -37906,7 +37928,7 @@
 		)
 		(fp_circle
 			(center 2.13948 1.99811)
-			(end 2.23948 1.998111)
+			(end 2.23948 1.99811)
 			(stroke
 				(width 0.2)
 				(type solid)
@@ -37956,8 +37978,8 @@
 			(uuid "d92aad5c-3488-42be-af0d-bdf406305293")
 		)
 		(fp_line
-			(start -1.175 3.400001)
-			(end 1.175 3.400001)
+			(start -1.175 3.4)
+			(end 1.175 3.4)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -37966,8 +37988,8 @@
 			(uuid "d34a991a-85ad-4ea7-8cb3-39cf8ba055af")
 		)
 		(fp_line
-			(start -1.175 3.400001)
-			(end -1.175 -3.400001)
+			(start -1.175 3.4)
+			(end -1.175 -3.4)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -37976,18 +37998,8 @@
 			(uuid "25544254-028f-43ef-940a-4666916cd99f")
 		)
 		(fp_line
-			(start -1.175 -3.400001)
-			(end 1.175 -3.400001)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "59b97ed8-0b44-480d-8d85-1feb4ff1af33")
-		)
-		(fp_line
-			(start 1.175 -3.400001)
-			(end 1.175 3.400001)
+			(start -1.175 -3.4)
+			(end 1.175 -3.4)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -37995,9 +38007,19 @@
 			(layer "B.Fab")
 			(uuid "ff6521dd-24c7-4b6c-acd7-654957655dc8")
 		)
+		(fp_line
+			(start 1.175 -3.4)
+			(end 1.175 3.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "59b97ed8-0b44-480d-8d85-1feb4ff1af33")
+		)
 		(fp_circle
 			(center 2.13948 1.99811)
-			(end 2.23948 1.998111)
+			(end 2.23948 1.99811)
 			(stroke
 				(width 0.2)
 				(type solid)
@@ -38007,7 +38029,7 @@
 			(uuid "1a78fe4a-3f70-46b6-935d-79a5b4c5fc1b")
 		)
 		(pad "1" smd rect
-			(at 0.675 1.904999 270)
+			(at 0.675 1.905 270)
 			(size 1.4 0.7)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/SCL")
@@ -38037,7 +38059,7 @@
 			(uuid "abda4355-b099-4582-ba97-6c6ab40e8731")
 		)
 		(pad "4" smd rect
-			(at 0.675 -1.904999 270)
+			(at 0.675 -1.905 270)
 			(size 1.4 0.7)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net "/SDA")
@@ -38047,7 +38069,7 @@
 			(uuid "93e02022-fb56-4fcd-944a-c07c301ec34c")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Bauke/Downloads/VEML7700-TR/VEML7700-TR.step"
+		(model "${KIPRJMOD}/library/3D/VEML7700-TR--3DModel-STEP-269445.STEP"
 			(offset
 				(xyz 0.2 0 1.5)
 			)
@@ -39100,6 +39122,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -39112,6 +39135,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -39512,6 +39536,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -39524,6 +39549,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -41041,6 +41067,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -41053,6 +41080,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -41455,6 +41483,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -41467,6 +41496,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
