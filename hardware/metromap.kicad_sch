@@ -8160,14 +8160,14 @@
 		(uuid "30ec2aa6-a074-441c-bf66-985ac5167791")
 	)
 	(label "TOUCH_2"
-		(at 256.54 114.3 180)
+		(at 256.54 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3ea97b14-1916-40be-afe2-51716185bc9f")
+		(uuid "38b1f252-d596-4b75-8942-9dbdee257229")
 	)
 	(label "EN"
 		(at 250.19 88.9 0)
@@ -8218,6 +8218,16 @@
 			(justify left bottom)
 		)
 		(uuid "95a0689e-f60f-490b-bf8f-d143321bcaf0")
+	)
+	(label "TOUCH_1"
+		(at 256.54 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "95e9083f-a772-46ac-9cca-8144827b0869")
 	)
 	(label "SCL"
 		(at 273.05 134.62 180)
@@ -8328,16 +8338,6 @@
 			(justify right bottom)
 		)
 		(uuid "fadc03a2-e15f-4ac3-8ffa-01c00d13575b")
-	)
-	(label "TOUCH_1"
-		(at 256.54 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fde3a6a1-9d2e-4be5-88d2-53bbd292af1b")
 	)
 	(symbol
 		(lib_id "Device:C")
