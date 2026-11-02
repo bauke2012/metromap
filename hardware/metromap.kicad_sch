@@ -10433,7 +10433,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11415,6 +11415,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part Number" "C1634"
+			(at 199.39 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Name JLCPCB" "0603CG100J500NT"
+			(at 199.39 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e0c1c392-e643-439f-91f1-e8bc836d1c82")
 		)
@@ -11677,6 +11699,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part Number" "C1634"
+			(at 187.96 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Name JLCPCB" "0603CG100J500NT"
+			(at 187.96 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9a6cf612-8647-4502-b0f2-47342c2e1352")
 		)
@@ -11747,6 +11791,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 204.47 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C21189"
+			(at 204.47 201.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Name JLCPCB" "0603WAF0000T5E"
+			(at 204.47 201.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12559,6 +12625,28 @@
 				)
 			)
 		)
+		(property "JLCPCB Part Number" "C134176"
+			(at 222.25 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Name JLCPCB" "TTP232-CA6"
+			(at 222.25 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "b7b454ba-fa99-440b-9dbf-5546c751e497")
 		)
@@ -12927,7 +13015,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -15575,6 +15663,28 @@
 		)
 		(property "Description" "Resistor"
 			(at 204.47 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part Number" "C21189"
+			(at 204.47 196.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Name JLCPCB" "0603WAF0000T5E"
+			(at 204.47 196.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
