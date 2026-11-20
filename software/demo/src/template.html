@@ -142,7 +142,7 @@ const MASKS = {
 };
 
 /* ---- Per (line, station, direction) pick the LED on the right-hand side of travel ---- */
-const LED = BOARD.leds; // [x,y] in mm, index = position in the data chain
+const LED = BOARD.leds; // [x,y,rot] in mm/degrees (KiCad, counter-clockwise), index = position in the data chain
 const mid = k => { const [a,b]=ST[k].l; return [(LED[a][0]+LED[b][0])/2,(LED[a][1]+LED[b][1])/2]; };
 const LEDMAP = {}; // `${line}|${idx}|${dir}` -> led index
 for (const [ln,L] of Object.entries(LINES)) {
@@ -188,14 +188,14 @@ for(const [x,y] of BOARD.holes){el("circle",{cx:x,cy:y,r:1.9,fill:"#0c0f14"},gBo
 for(const [x,y] of BOARD.pads){el("rect",{x:x-3.5,y:y-2.25,width:7,height:4.5,rx:.8,fill:"none","stroke-width":.25,class:"padsilk"},gBoard);}
 const gGlow=el("g",{filter:"url(#glow)"},svg);
 const gLed=el("g",{},svg);
-const ledEls=LED.map(([x,y],i)=>{
+const ledEls=LED.map(([x,y,rot=0],i)=>{
   const g=el("g",{class:"led","data-i":i,tabindex:0},gLed);
   el("circle",{cx:x,cy:y,r:2.2,fill:"transparent"},g);            // tap target
   // SK6812-EC20: 2x2 mm, semi-transparent grey epoxy over a gold lead frame,
   // driver IC and three small R/G/B dies visible through the lens
-  g.appendChild(document.createElementNS(SVGNS,"use")).setAttribute("href","#ledpkg");
-  g.lastChild.setAttribute("x",x); g.lastChild.setAttribute("y",y);
-  const lens=el("rect",{x:x-.92,y:y-.92,width:1.84,height:1.84,rx:.14,opacity:0},g); // lit epoxy
+  const body=el("g",{transform:`rotate(${-rot} ${x} ${y})`},g);  // same orientation as the footprint
+  el("use",{href:"#ledpkg",x,y},body);
+  const lens=el("rect",{x:x-.92,y:y-.92,width:1.84,height:1.84,rx:.14,opacity:0},body); // lit epoxy
   const hot=el("circle",{cx:x,cy:y,r:.45,fill:"#fff",opacity:0},g);                // bright centre
   const halo=el("circle",{cx:x,cy:y,r:1.9,fill:"none",opacity:0},gGlow);
   return {lens,hot,halo};
