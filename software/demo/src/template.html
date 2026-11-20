@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>MetroMap Live</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Righteous&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: the board is the page; a narrow control rail sits beside it (below it on phones). */
+:root{
+  --bg:#0c0f14; --panel:#141922; --line:#232b38; --fg:#e7ebf2; --muted:#8b95a7;
+  --ok:#3ecf8e; --warn:#f2b84b; --bad:#ff6b6b;
+  --f-display:"Righteous",system-ui,sans-serif;
+  --f-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 var(--f-body)}
+body{padding:max(16px,env(safe-area-inset-top)) max(16px,env(safe-area-inset-right)) max(16px,env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left))}
+.wrap{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:20px;max-width:1240px;margin:0 auto;align-items:start}
+@media (max-width:860px){.wrap{grid-template-columns:minmax(0,1fr)}}
+.stage{min-width:0}
+.board{width:100%;max-width:min(100%,calc(100vh - 40px));aspect-ratio:1;margin:0 auto;display:block}
+@media (max-width:860px){.board{max-width:100%}}
+svg{display:block;width:100%;height:100%}
+.rail{display:flex;flex-direction:column;gap:14px;min-width:0}
+h1{font:400 26px/1 var(--f-display);margin:0;letter-spacing:.5px}
+h1 small{display:block;font:500 12px/1.4 var(--f-body);color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-top:6px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.status{display:flex;align-items:center;gap:10px}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--muted);flex:none}
+.dot.ok{background:var(--ok);box-shadow:0 0 0 4px color-mix(in srgb,var(--ok) 25%,transparent)}
+.dot.warn{background:var(--warn)}
+.dot.bad{background:var(--bad)}
+.status b{display:block;font-weight:600}
+.status span{color:var(--muted);font-size:12.5px}
+.legend{display:grid;grid-template-columns:auto 1fr auto;gap:6px 10px;align-items:center;font-variant-numeric:tabular-nums}
+.sw{width:14px;height:14px;border-radius:3px}
+.legend .n{font-family:var(--f-mono);color:var(--muted)}
+label.ctl{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:13px}
+select,input[type=range]{font:inherit;color:var(--fg);background:#0f131a;border:1px solid var(--line);border-radius:6px;padding:4px 6px}
+input[type=range]{padding:0;accent-color:#9fb4ff;width:140px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:7px;overflow:hidden}
+.seg button{font:inherit;font-size:13px;background:transparent;color:var(--muted);border:0;padding:5px 12px;cursor:pointer}
+.seg button[aria-pressed=true]{background:#263044;color:var(--fg)}
+.seg button:focus-visible,select:focus-visible{outline:2px solid #9fb4ff;outline-offset:1px}
+.trains{max-height:340px;overflow:auto;font-size:12.5px}
+.trains table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.trains td{padding:3px 4px;border-top:1px solid var(--line);vertical-align:top}
+.trains td:first-child{width:30px}
+.pill{display:inline-block;min-width:24px;text-align:center;border-radius:4px;font:600 11px/18px var(--f-mono);color:#111}
+.muted{color:var(--muted)}
+.note{font-size:12px;color:var(--muted)}
+.tip{position:fixed;pointer-events:none;background:#0b0e13ee;border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:12.5px;max-width:260px;z-index:5}
+.led{cursor:pointer}
+@media (prefers-reduced-motion:reduce){.pulse{animation:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="stage"><div class="board" id="board"></div></div>
+  <aside class="rail">
+    <h1>MetroMap Live<small>GVB metro · 82 LEDs · gesimuleerde print</small></h1>
+    <div class="card status"><div class="dot" id="sdot"></div><div><b id="stitle">Verbinden…</b><span id="ssub">Live posities ophalen bij OVapi</span></div></div>
+    <div class="card">
+      <div class="legend" id="legend"></div>
+    </div>
+    <div class="card" style="display:flex;flex-direction:column;gap:10px">
+      <label class="ctl">Bron <span class="seg" role="group" aria-label="Databron"><button id="mLive" aria-pressed="true">Live</button><button id="mSim" aria-pressed="false">Simulatie</button></span></label>
+      <label class="ctl" for="mask">Soldermasker <select id="mask"><option value="blue">Blauw</option><option value="green">Groen</option><option value="purple">Paars</option><option value="black">Mat zwart</option><option value="white">Wit</option></select></label>
+      <label class="ctl" for="bright">Helderheid <input id="bright" type="range" min="15" max="100" value="80"></label>
+    </div>
+    <div class="card trains"><table><tbody id="tlist"></tbody></table></div>
+    <p class="note">Elk station heeft twee LEDs, één per rijrichting (rechts van de rijrichting). Vol licht: metro staat op het station. Gedimd en pulserend: metro is onderweg naar dat station. Tik op een LED voor details.</p>
+  </aside>
+</div>
+<div class="tip" id="tip" hidden></div>
+<script>
+const BOARD = /*BOARD_JSON*/;
+
+/* ---- Network model: station -> LED pair (chain index on the PCB), lines -> station order ---- */
+const ST = {
+  iso:{n:"Isolatorweg",l:[16,17],a:["isolatorweg"]},
+  slo:{n:"Sloterdijk",l:[14,15],a:["sloterdijk"]},
+  vlu:{n:"De Vlugtlaan",l:[12,13],a:["devlugtlaan","vlugtlaan"]},
+  jvg:{n:"Jan van Galenstraat",l:[10,11],a:["janvangalenstraat","janvgalenstraat","galenstraat"]},
+  pos:{n:"Postjesweg",l:[8,9],a:["postjesweg"]},
+  lel:{n:"Lelylaan",l:[6,7],a:["lelylaan"]},
+  hee:{n:"Heemstedestraat",l:[4,5],a:["heemstedestraat"]},
+  hsw:{n:"Henk Sneevlietweg",l:[2,3],a:["henksneevlietweg"]},
+  avw:{n:"Amstelveenseweg",l:[0,1],a:["amstelveenseweg"]},
+  zur:{n:"Zuid",l:[70,71],a:["zuid","zuidwtc"]},
+  rai:{n:"RAI",l:[68,69],a:["rai"]},
+  ova:{n:"Overamstel",l:[66,67],a:["overamstel"]},
+  vdm:{n:"Van der Madeweg",l:[38,39],a:["vandermadeweg"]},
+  dui:{n:"Duivendrecht",l:[64,65],a:["duivendrecht"]},
+  str:{n:"Strandvliet",l:[62,63],a:["strandvliet"]},
+  bij:{n:"Bijlmer ArenA",l:[60,61],a:["bijlmerarena","bijlmer"]},
+  bul:{n:"Bullewijk",l:[58,59],a:["bullewijk"]},
+  hol:{n:"Holendrecht",l:[56,57],a:["holendrecht"]},
+  rei:{n:"Reigersbos",l:[54,55],a:["reigersbos"]},
+  gei:{n:"Gein",l:[52,53],a:["gein"]},
+  ven:{n:"Venserpolder",l:[40,41],a:["venserpolder"]},
+  dzu:{n:"Diemen Zuid",l:[42,43],a:["diemenzuid"]},
+  vsw:{n:"Verrijn Stuartweg",l:[44,45],a:["verrijnstuartweg"]},
+  gan:{n:"Ganzenhoef",l:[46,47],a:["ganzenhoef"]},
+  kra:{n:"Kraaiennest",l:[48,49],a:["kraaiennest"]},
+  gaa:{n:"Gaasperplas",l:[50,51],a:["gaasperplas"]},
+  noo:{n:"Noord",l:[18,19],a:["noord"]},
+  nop:{n:"Noorderpark",l:[20,21],a:["noorderpark"]},
+  c52:{n:"Centraal Station",l:[22,23],a:["centraalstation","centraal","amsterdamcentraal"]},
+  rok:{n:"Rokin",l:[74,75],a:["rokin"]},
+  vij:{n:"Vijzelgracht",l:[76,77],a:["vijzelgracht"]},
+  pij:{n:"De Pijp",l:[78,79],a:["depijp","pijp"]},
+  eur:{n:"Europaplein",l:[80,81],a:["europaplein"]},
+  z52:{n:"Zuid",l:[72,73],a:["zuid","zuidwtc"]},
+  cse:{n:"Centraal Station",l:[24,25],a:["centraalstation","centraal","amsterdamcentraal"]},
+  nie:{n:"Nieuwmarkt",l:[26,27],a:["nieuwmarkt"]},
+  wat:{n:"Waterlooplein",l:[28,29],a:["waterlooplein"]},
+  wee:{n:"Weesperplein",l:[30,31],a:["weesperplein"]},
+  wib:{n:"Wibautstraat",l:[32,33],a:["wibautstraat"]},
+  ams:{n:"Amstel",l:[34,35],a:["amstel","amstelstation"]},
+  spa:{n:"Spaklerweg",l:[36,37],a:["spaklerweg"]},
+};
+const WEST = ["iso","slo","vlu","jvg","pos","lel","hee","hsw","avw","zur","rai","ova"];
+const EAST = ["cse","nie","wat","wee","wib","ams","spa"];
+const LINES = {
+  50:{c:"#2fae4e",seq:[...WEST,"vdm","dui","str","bij","bul","hol","rei","gei"]},
+  51:{c:"#f39200",seq:[...WEST,"spa","ams","wib","wee","wat","nie","cse"]},
+  52:{c:"#24a8e0",seq:["noo","nop","c52","rok","vij","pij","eur","z52"]},
+  53:{c:"#e5222b",seq:[...EAST,"vdm","ven","dzu","vsw","gan","kra","gaa"]},
+  54:{c:"#ffd200",seq:[...EAST,"vdm","dui","str","bij","bul","hol","rei","gei"]},
+};
+const MASKS = {
+  blue:  {mask:"#0f3f7c",cu:"#2b66a8",silk:"#f4f6f8",edge:"#0a2c57"},
+  green: {mask:"#0c4f2c",cu:"#2c7a45",silk:"#f4f6f8",edge:"#083820"},
+  purple:{mask:"#3a1f63",cu:"#5d3d8f",silk:"#f4f6f8",edge:"#2a1648"},
+  black: {mask:"#151617",cu:"#1d1f20",silk:"#eceeef",edge:"#0b0c0c"},
+  white: {mask:"#e9ece9",cu:"#dfe2dc",silk:"#141414",edge:"#c9ccc8"},
+};
+
+/* ---- Per (line, station, direction) pick the LED on the right-hand side of travel ---- */
+const LED = BOARD.leds; // [x,y] in mm, index = position in the data chain
+const mid = k => { const [a,b]=ST[k].l; return [(LED[a][0]+LED[b][0])/2,(LED[a][1]+LED[b][1])/2]; };
+const LEDMAP = {}; // `${line}|${idx}|${dir}` -> led index
+for (const [ln,L] of Object.entries(LINES)) {
+  L.seq.forEach((k,i)=>{
+    const p = mid(L.seq[Math.max(0,i-1)]), n = mid(L.seq[Math.min(L.seq.length-1,i+1)]);
+    const v=[n[0]-p[0],n[1]-p[1]], right=[-v[1],v[0]], m=mid(k), [a,b]=ST[k].l;
+    const da=(LED[a][0]-m[0])*right[0]+(LED[a][1]-m[1])*right[1];
+    LEDMAP[`${ln}|${i}|1`]  = da>0?a:b;
+    LEDMAP[`${ln}|${i}|-1`] = da>0?b:a;
+  });
+}
+
+/* ---- Draw the PCB ---- */
+const SVGNS="http://www.w3.org/2000/svg";
+const el=(t,a={},p)=>{const e=document.createElementNS(SVGNS,t);for(const k in a)e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;};
+const svg=el("svg",{viewBox:"-2 -2 104 104",role:"img","aria-label":"Metrokaart van Amsterdam met LED per station en richting"});
+document.getElementById("board").appendChild(svg);
+const defs=el("defs",{},svg);
+const glow=el("filter",{id:"glow",x:"-100%",y:"-100%",width:"300%",height:"300%"},defs);
+el("feGaussianBlur",{stdDeviation:"1.1"},glow);
+const clip=el("clipPath",{id:"bclip"},defs);
+el("rect",{x:0,y:0,width:100,height:100,rx:6},clip);
+const gBoard=el("g",{},svg);
+const rBoard=el("rect",{x:0,y:0,width:100,height:100,rx:6},gBoard);
+const gArt=el("g",{"clip-path":"url(#bclip)"},gBoard);
+const pWater=el("path",{d:BOARD.water.join(""),"fill-rule":"nonzero"},gArt);
+const gSilk=el("g",{fill:"none","stroke-linecap":"round"},gArt);
+for(const [d,w] of BOARD.tracks) el("path",{d,"stroke-width":w},gSilk);
+const gText=el("g",{},gArt);
+for(const t of BOARD.labels){
+  const lines=t.t.split("\n"), fs=t.s*1.36, lh=t.s*1.62;
+  const anchor=t.j.includes("left")?"start":t.j.includes("right")?"end":"middle";
+  const tx=el("text",{x:t.x,y:t.y,"font-size":fs,"text-anchor":anchor,"font-family":"Righteous, system-ui, sans-serif",class:t.cu?"cu":"silk"},gText);
+  lines.forEach((s,i)=>{const sp=el("tspan",{x:t.x,y:t.y-(lines.length-1-i)*lh},tx);sp.textContent=s;});
+}
+for(const [x,y] of BOARD.holes){el("circle",{cx:x,cy:y,r:1.9,fill:"#0c0f14"},gBoard);el("circle",{cx:x,cy:y,r:2.6,fill:"none","stroke-width":.5,class:"ring"},gBoard);}
+for(const [x,y] of BOARD.pads){el("rect",{x:x-3.5,y:y-2.25,width:7,height:4.5,rx:.8,fill:"none","stroke-width":.25,class:"padsilk"},gBoard);}
+const gGlow=el("g",{filter:"url(#glow)"},svg);
+const gLed=el("g",{},svg);
+const ledEls=LED.map(([x,y],i)=>{
+  const g=el("g",{class:"led","data-i":i,tabindex:0},gLed);
+  el("circle",{cx:x,cy:y,r:2.2,fill:"transparent"},g);            // tap target
+  el("rect",{x:x-1,y:y-1,width:2,height:2,rx:.25,fill:"#e9e6dc"},g); // 2020 package
+  const die=el("circle",{cx:x,cy:y,r:.62,fill:"#cfc9b8"},g);
+  const halo=el("circle",{cx:x,cy:y,r:1.9,fill:"none",opacity:0},gGlow);
+  return {die,halo};
+});
+function applyMask(name){
+  const m=MASKS[name]||MASKS.blue;
+  rBoard.setAttribute("fill",m.mask); rBoard.setAttribute("stroke",m.edge); rBoard.setAttribute("stroke-width",.4);
+  pWater.setAttribute("fill",m.cu);
+  gSilk.setAttribute("stroke",m.silk);
+  gText.querySelectorAll("text.silk").forEach(t=>t.setAttribute("fill",m.silk));
+  gText.querySelectorAll("text.cu").forEach(t=>t.setAttribute("fill",m.cu));
+  gBoard.querySelectorAll(".ring,.padsilk").forEach(c=>c.setAttribute("stroke",name==="white"?"#b8a46a":"#c9b37a"));
+}
+
+/* ---- Name matching for OVapi stop names ---- */
+const norm=s=>(s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/\b(metrostation|station|metro)\b/g,"").replace(/[^a-z0-9]/g,"");
+function matchIdx(name, seq){
+  const n=norm(name); if(!n) return -1;
+  for(let i=0;i<seq.length;i++) if(ST[seq[i]].a.includes(n)) return i;
+  let best=-1,bl=0;
+  for(let i=0;i<seq.length;i++) for(const a of ST[seq[i]].a){
+    if(a.length>=4 && (n.includes(a)||a.includes(n)) && a.length>bl){best=i;bl=a.length;}
+  }
+  return best;
+}
+
+/* ---- Live data (OVapi / KV78Turbo) ----
+   /line/<ids>  -> network: which timing points (stops) each metro line serves
+   /tpc/<codes> -> per stop the next passes, with expected arrival/departure per journey.
+   We regroup the passes per journey and place each metro at the stop it is at,
+   or the stop it is driving to. OVapi has no CORS header and a broken HTTPS cert,
+   so the page goes through server.py (/ovapi/...) or must run on v0.ovapi.nl itself. */
+const LINE_IDS=[50,51,52,53,54].flatMap(l=>[1,2].map(d=>`GVB_${l}_${d}`));
+let apiBase=null, tpcCodes=null, tpcAt=0;
+const dirVotes={}; // line -> {LineDirection: {"1":n,"-1":n}}
+async function getJSON(path){
+  const bases = apiBase ? [apiBase] : [...(location.protocol.startsWith("http")&&location.hostname!=="v0.ovapi.nl"?["ovapi"]:[]),"http://v0.ovapi.nl"];
+  let lastErr;
+  for(const b of bases){
+    try{
+      const r=await fetch(`${b}${path}`,{cache:"no-store"});
+      if(!r.ok) throw new Error(`HTTP ${r.status}`);
+      const j=await r.json(); apiBase=b; return j;
+    }catch(e){lastErr=e;}
+  }
+  throw lastErr;
+}
+const T=s=>s?Date.parse(String(s).replace(/([+-]\d\d)(\d\d)$/,"$1:$2")):NaN;
+async function loadCodes(){
+  const data=await getJSON(`/line/${LINE_IDS.join(",")}`);
+  const set=new Set();
+  for(const o of Object.values(data)) for(const jp of Object.values(o?.Network||{})) for(const p of Object.values(jp)) if(p.TimingPointCode) set.add(p.TimingPointCode);
+  if(!set.size) throw new Error("geen metrohaltes gevonden");
+  tpcCodes=[...set]; tpcAt=Date.now();
+}
+function direction(ln,i,dest,ld){
+  const L=LINES[ln], j=matchIdx(dest,L.seq);
+  const v=(dirVotes[ln]??={})[ld]??={"1":0,"-1":0};
+  if(j>=0&&j!==i){ const d=Math.sign(j-i); v[d]++; return d; }
+  if(v["1"]||v["-1"]) return v["1"]>=v["-1"]?1:-1;
+  return i===0?1:-1;
+}
+async function fetchLive(){
+  if(!tpcCodes||Date.now()-tpcAt>3600e3) await loadCodes();
+  const data=await getJSON(`/tpc/${tpcCodes.join(",")}`);
+  const now=Date.now(), J={};
+  for(const stop of Object.values(data)) for(const p of Object.values(stop?.Passes||{})){
+    const ln=String(p.LinePublicNumber??p.LinePlanningNumber); if(!LINES[ln]) continue;
+    const key=`${ln}_${p.OperationDate}_${p.JourneyNumber}`;
+    const j=(J[key]??={ln,dest:p.DestinationName50||"",ld:String(p.LineDirection),stops:[]});
+    j.stops.push({o:+p.UserStopOrderNumber,name:p.TimingPointName,arr:T(p.ExpectedArrivalTime),dep:T(p.ExpectedDepartureTime),st:p.TripStopStatus,first:p.JourneyStopType==="FIRST"});
+  }
+  const out=[];
+  for(const j of Object.values(J)){
+    const L=LINES[j.ln];
+    j.stops.sort((a,b)=>a.o-b.o);
+    // first stop the metro has not left yet
+    const s=j.stops.find(x=>x.st!=="PASSED" && x.st!=="CANCEL" && !(x.dep<now-5e3));
+    if(!s) continue;
+    const i=matchIdx(s.name,L.seq); if(i<0) continue;
+    const dir=direction(j.ln,i,j.dest,j.ld);
+    let phase;
+    if(s.first||s.o===1){ if(!(s.dep-now<=3*60e3)) continue; phase="at"; }        // waiting at the terminus
+    else if(s.st==="ARRIVED"||s.arr<=now) phase="at";                                 // standing at the platform
+    else { if(s.arr-now>6*60e3) continue; phase="to"; }                              // driving to this stop
+    out.push({line:j.ln,idx:i,dir,phase,dest:j.dest||ST[L.seq[dir>0?L.seq.length-1:0]].n,eta:phase==="to"?s.arr:s.dep,stop:s.name});
+  }
+  return out;
+}
+
+/* ---- Simulation (for testing without data, e.g. at night) ---- */
+function simulate(){
+  const now=Date.now()/1000, out=[], RUN=95, DWELL=25, HEAD={50:600,51:600,52:360,53:480,54:480};
+  for(const [ln,L] of Object.entries(LINES)){
+    const n=L.seq.length, trip=(n-1)*(RUN+DWELL);
+    for(const dir of [1,-1]){
+      for(let k=0;k*HEAD[ln]<trip;k++){
+        const t=((now + k*HEAD[ln] + (dir>0?0:HEAD[ln]/2) + Number(ln)*37) % trip);
+        const seg=Math.floor(t/(RUN+DWELL)), r=t-seg*(RUN+DWELL);
+        let i=dir>0?seg:n-1-seg, phase="at";
+        if(r>=DWELL){ i+=dir; phase="to"; }
+        if(i<0||i>=n) continue;
+        out.push({line:ln,idx:i,dir,phase,dest:ST[L.seq[dir>0?n-1:0]].n,eta:(now+(phase==="to"?RUN+DWELL-r:DWELL-r))*1000,stop:ST[L.seq[i]].n});
+      }
+    }
+  }
+  return out;
+}
+
+/* ---- Render trains onto LEDs ---- */
+let trains=[], mode="live", bright=.8, lastOk=0, ledTrains=[];
+function render(){
+  ledTrains=LED.map(()=>[]);
+  for(const t of trains){ const led=LEDMAP[`${t.line}|${t.idx}|${t.dir}`]; if(led!=null) ledTrains[led].push(t); }
+  draw();
+  const cnt={}; trains.forEach(t=>cnt[t.line]=(cnt[t.line]||0)+1);
+  document.getElementById("legend").innerHTML=Object.entries(LINES).map(([ln,L])=>`<span class="sw" style="background:${L.c}"></span><span>Metro ${ln} <span class="muted">${ST[L.seq[0]].n} – ${ST[L.seq[L.seq.length-1]].n}</span></span><span class="n">${cnt[ln]||0}</span>`).join("");
+  const rows=trains.slice().sort((a,b)=>a.line-b.line||a.dest.localeCompare(b.dest)||a.idx-b.idx).map(t=>{
+    const s=ST[LINES[t.line].seq[t.idx]].n;
+    return `<tr><td><span class="pill" style="background:${LINES[t.line].c}">${t.line}</span></td><td>${t.phase==="at"?"bij":"→"} ${esc(s)}<br><span class="muted">richting ${esc(t.dest)}</span></td></tr>`;
+  });
+  document.getElementById("tlist").innerHTML=rows.join("")||`<tr><td class="muted" colspan="2">Geen metro's in beeld.</td></tr>`;
+}
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let tick=0;
+function draw(){
+  ledTrains.forEach((list,i)=>{
+    const {die,halo}=ledEls[i];
+    if(!list.length){die.setAttribute("fill","#cfc9b8");halo.setAttribute("opacity",0);return;}
+    const t=list[Math.floor(tick/2)%list.length];
+    const c=LINES[t.line].c;
+    const pulse=t.phase==="to"?(.35+.2*Math.sin(Date.now()/350)):1;
+    die.setAttribute("fill",c); halo.setAttribute("fill",c);
+    halo.setAttribute("opacity",(bright*pulse).toFixed(2));
+    die.setAttribute("opacity",(.55+.45*bright*pulse).toFixed(2));
+  });
+}
+setInterval(()=>{tick++;},1000);
+(function anim(){draw();requestAnimationFrame(anim);})();
+
+function setStatus(kind,title,sub){
+  document.getElementById("sdot").className="dot "+kind;
+  document.getElementById("stitle").textContent=title;
+  document.getElementById("ssub").textContent=sub;
+}
+const hhmm=d=>new Date(d).toLocaleTimeString("nl-NL",{hour:"2-digit",minute:"2-digit",second:"2-digit"});
+async function refresh(){
+  if(mode==="sim"){ trains=simulate(); render(); setStatus("warn","Simulatie","Verzonnen dienstregeling, geen echte data"); return; }
+  try{
+    trains=await fetchLive(); lastOk=Date.now(); render();
+    if(trains.length) setStatus("ok","Live",`${trains.length} metro's · bijgewerkt ${hhmm(lastOk)}${apiBase==="ovapi"?" · via server.py":""}`);
+    else setStatus("warn","Live, geen metro's","Er rijdt nu niets (nacht?) of OVapi geeft geen posities. Probeer Simulatie.");
+  }catch(e){
+    console.error(e);
+    const hint = "Start server.py en open de pagina via http://localhost:8000.";
+    setStatus("bad","Geen live data",`${e.message||e} · ${hint}`);
+    if(lastOk===0){ trains=[]; render(); }
+  }
+}
+function setMode(m){
+  mode=m; document.getElementById("mLive").setAttribute("aria-pressed",m==="live"); document.getElementById("mSim").setAttribute("aria-pressed",m==="sim");
+  refresh();
+}
+document.getElementById("mLive").onclick=()=>setMode("live");
+document.getElementById("mSim").onclick=()=>setMode("sim");
+const maskSel=document.getElementById("mask");
+try{ maskSel.value=localStorage.getItem("mm-mask")||"blue"; }catch{}
+maskSel.onchange=()=>{applyMask(maskSel.value);try{localStorage.setItem("mm-mask",maskSel.value)}catch{}};
+applyMask(maskSel.value);
+document.getElementById("bright").oninput=e=>{bright=e.target.value/100;};
+
+/* tooltip */
+const tip=document.getElementById("tip");
+function showTip(i,x,y){
+  const st=Object.values(ST).find(s=>s.l.includes(i));
+  const list=ledTrains[i]||[];
+  tip.innerHTML=`<b>${esc(st?st.n:"LED")}</b> <span class="muted">· LED ${i}</span><br>`+(list.length?list.map(t=>`<span class="pill" style="background:${LINES[t.line].c}">${t.line}</span> ${t.phase==="at"?"op station":"onderweg hierheen"} · richting ${esc(t.dest)}${isNaN(t.eta)?"":` · ${t.phase==="at"?"vertrek":"aankomst"} ${new Date(t.eta).toLocaleTimeString("nl-NL",{hour:"2-digit",minute:"2-digit"})}`}`).join("<br>"):`<span class="muted">Geen metro</span>`);
+  tip.hidden=false;
+  const r=tip.getBoundingClientRect();
+  tip.style.left=Math.min(window.innerWidth-r.width-8,x+12)+"px";
+  tip.style.top=Math.min(window.innerHeight-r.height-8,y+12)+"px";
+}
+gLed.addEventListener("pointerover",e=>{const g=e.target.closest(".led");if(g)showTip(+g.dataset.i,e.clientX,e.clientY);});
+gLed.addEventListener("pointerdown",e=>{const g=e.target.closest(".led");if(g)showTip(+g.dataset.i,e.clientX,e.clientY);});
+gLed.addEventListener("pointerout",e=>{if(e.pointerType==="mouse")tip.hidden=true;});
+document.addEventListener("pointerdown",e=>{if(!e.target.closest(".led"))tip.hidden=true;});
+
+refresh();
+setInterval(refresh,15000);
+</script>
+</body>
+</html>
