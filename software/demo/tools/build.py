@@ -103,7 +103,7 @@ def main():
         elif p.get("Value", "").startswith("SK6812"):
             at = get(fp, "at")
             pads_ = {pd[1]: get(pd, "net")[-1] for pd in find(fp, "pad") if get(pd, "net")}
-            leds[ref] = dict(x=float(at[1]), y=float(at[2]), din=pads_.get("4"), dout=pads_.get("2"))
+            leds[ref] = dict(x=float(at[1]), y=float(at[2]), rot=float(at[3]) if len(at) > 3 else 0.0, din=pads_.get("4"), dout=pads_.get("2"))
         elif ref.startswith("H") and p.get("Value", "").startswith("Mounting"):
             at = get(fp, "at")
             holes.append([r2(float(at[1]) - X0), r2(float(at[2]) - Y0)])
@@ -148,7 +148,7 @@ def main():
                            j=j[1:] if j else [], s=size, cu=layer == "F.Cu"))
 
     board = dict(water=water, tracks=tracks, labels=labels, holes=holes, pads=pads,
-                 leds=[[r2(leds[r]["x"] - X0), r2(leds[r]["y"] - Y0)] for r in order],
+                 leds=[[r2(leds[r]["x"] - X0), r2(leds[r]["y"] - Y0), leds[r]["rot"]] for r in order],
                  refs=order)
     html = TEMPLATE.read_text(encoding="utf-8").replace("/*BOARD_JSON*/", json.dumps(board, separators=(",", ":")))
     OUT.write_text(html, encoding="utf-8")
