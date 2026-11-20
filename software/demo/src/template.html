@@ -229,9 +229,12 @@ function matchIdx(name, seq){
    /tpc/<codes> -> per stop the next passes, with expected arrival/departure per journey.
    We regroup the passes per journey and place each metro at the stop it is at,
    or the stop it is driving to. OVapi has no CORS header and a broken HTTPS cert,
-   so the page goes through server.py (/ovapi/...) or must run on v0.ovapi.nl itself. */
+   so the page goes through server.py (/ovapi/...) or must run on v0.ovapi.nl itself.
+   Data size: OVapi gzips the answer (~340 kB -> ~16 kB) and caps one /tpc request at
+   300 passes in total. Asking for fewer stops therefore does not make it smaller,
+   it only stretches the time window per stop, so all stops are asked every poll. */
 const LINE_IDS=[50,51,52,53,54].flatMap(l=>[1,2].map(d=>`GVB_${l}_${d}`));
-let apiBase=null, tpcCodes=null, tpcAt=0;
+let apiBase=null, tpcCodes=null, tpcAt=0, lastBytes=null;
 const dirVotes={}; // line -> {LineDirection: {"1":n,"-1":n}}
 async function getJSON(path){
   const bases = apiBase ? [apiBase] : [...(location.protocol.startsWith("http")&&location.hostname!=="v0.ovapi.nl"?["ovapi"]:[]),"http://v0.ovapi.nl"];
@@ -240,7 +243,10 @@ async function getJSON(path){
     try{
       const r=await fetch(`${b}${path}`,{cache:"no-store"});
       if(!r.ok) throw new Error(`HTTP ${r.status}`);
-      const j=await r.json(); apiBase=b; return j;
+      const j=await r.json(); apiBase=b;
+      const pe=performance.getEntriesByType("resource").filter(e=>e.name.endsWith(path)).pop();
+      lastBytes=pe&&pe.transferSize?pe.transferSize:null; performance.clearResourceTimings();
+      return j;
     }catch(e){lastErr=e;}
   }
   throw lastErr;
@@ -350,7 +356,7 @@ async function refresh(){
   if(mode==="sim"){ trains=simulate(); render(); setStatus("warn","Simulatie","Verzonnen dienstregeling, geen echte data"); return; }
   try{
     trains=await fetchLive(); lastOk=Date.now(); render();
-    if(trains.length) setStatus("ok","Live",`${trains.length} metro's · bijgewerkt ${hhmm(lastOk)}${apiBase==="ovapi"?" · via server.py":""}`);
+    if(trains.length) setStatus("ok","Live",`${trains.length} metro's · ${hhmm(lastOk)}${lastBytes?` · ${(lastBytes/1024).toFixed(1)} kB per update`:""}`);
     else setStatus("warn","Live, geen metro's","Er rijdt nu niets (nacht?) of OVapi geeft geen posities. Probeer Simulatie.");
   }catch(e){
     console.error(e);
