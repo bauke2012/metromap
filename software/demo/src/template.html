@@ -225,28 +225,23 @@ function matchIdx(name, seq){
 }
 
 /* ---- Live data (OVapi / KV78Turbo) ----
-   /line/<ids>  -> network: which timing points (stops) each metro line serves.
-   /tpc/<codes> -> per stop all passes in the next ~15 minutes, with expected
-                   arrival/departure per journey (gzip: ~16 kB for all stops).
-   Lean polling: every 30 min one full poll of all stops, used to learn the run
-   time between stations and the dwell time. In between, every 15 s, only every
-   third station plus the termini is polled (about a third of the data). A metro
-   still shows up at the next polled station it will reach, and its current
-   position is found by walking back from there with the learned run times.
-   OVapi has no CORS header and a broken HTTPS certificate, so the page goes
-   through server.py (/ovapi/...) or has to run on v0.ovapi.nl itself. */
+   /line/<ids>  -> network: which timing points (stops) each metro line serves
+   /tpc/<codes> -> per stop the next passes, with expected arrival/departure per journey.
+   We regroup the passes per journey and place each metro at the stop it is at,
+   or the stop it is driving to. OVapi has no CORS header and a broken HTTPS cert,
+   so the page goes through server.py (/ovapi/...) or must run on v0.ovapi.nl itself.
+   Data size: OVapi gzips the answer (~340 kB -> ~16 kB) and caps one /tpc request at
+   300 passes in total. Asking for fewer stops therefore does not make it smaller,
+   it only stretches the time window per stop, so all stops are asked every poll. */
 const LINE_IDS=[50,51,52,53,54].flatMap(l=>[1,2].map(d=>`GVB_${l}_${d}`));
-const POLL_EVERY_NTH=3, FULL_EVERY=30*60e3, DEF_RUN=95e3, DEF_DWELL=25e3;
-let apiBase=null, net=null, lastFull=0, lastBytes=null, lastKind="";
-const dirVotes={};       // line -> {LineDirection: {"1":n,"-1":n}}
-const RT={};             // `${line}|${fromIdx}|${dir}` -> {run, dwell} in ms
+let apiBase=null, tpcCodes=null, tpcAt=0, lastBytes=null;
+const dirVotes={}; // line -> {LineDirection: {"1":n,"-1":n}}
 async function getJSON(path){
   const bases = apiBase ? [apiBase] : [...(location.protocol.startsWith("http")&&location.hostname!=="v0.ovapi.nl"?["ovapi"]:[]),"http://v0.ovapi.nl"];
   let lastErr;
   for(const b of bases){
     try{
-      const url=`${b}${path}`;
-      const r=await fetch(url,{cache:"no-store"});
+      const r=await fetch(`${b}${path}`,{cache:"no-store"});
       if(!r.ok) throw new Error(`HTTP ${r.status}`);
       const j=await r.json(); apiBase=b;
       const pe=performance.getEntriesByType("resource").filter(e=>e.name.endsWith(path)).pop();
@@ -257,23 +252,12 @@ async function getJSON(path){
   throw lastErr;
 }
 const T=s=>s?Date.parse(String(s).replace(/([+-]\d\d)(\d\d)$/,"$1:$2")):NaN;
-async function loadNetwork(){
+async function loadCodes(){
   const data=await getJSON(`/line/${LINE_IDS.join(",")}`);
-  const byKey={}, all=new Set();
-  for(const [id,o] of Object.entries(data)){
-    const ln=String(o?.Line?.LinePublicNumber ?? id.split("_")[1]), L=LINES[ln]; if(!L) continue;
-    for(const jp of Object.values(o.Network||{})) for(const p of Object.values(jp)){
-      const i=matchIdx(p.TimingPointName,L.seq); if(i<0||!p.TimingPointCode) continue;
-      (byKey[L.seq[i]]??=new Set()).add(p.TimingPointCode); all.add(p.TimingPointCode);
-    }
-  }
-  if(!all.size) throw new Error("geen metrohaltes gevonden");
-  const pick=new Set();
-  for(const L of Object.values(LINES)){
-    for(let i=0;i<L.seq.length;i+=POLL_EVERY_NTH) pick.add(L.seq[i]);
-    pick.add(L.seq[L.seq.length-1]);
-  }
-  net={all:[...all], lean:[...pick].flatMap(k=>[...(byKey[k]||[])])};
+  const set=new Set();
+  for(const o of Object.values(data)) for(const jp of Object.values(o?.Network||{})) for(const p of Object.values(jp)) if(p.TimingPointCode) set.add(p.TimingPointCode);
+  if(!set.size) throw new Error("geen metrohaltes gevonden");
+  tpcCodes=[...set]; tpcAt=Date.now();
 }
 function direction(ln,i,dest,ld){
   const L=LINES[ln], j=matchIdx(dest,L.seq);
@@ -282,59 +266,32 @@ function direction(ln,i,dest,ld){
   if(v["1"]||v["-1"]) return v["1"]>=v["-1"]?1:-1;
   return i===0?1:-1;
 }
-function journeys(data){
-  const J={};
+async function fetchLive(){
+  if(!tpcCodes||Date.now()-tpcAt>3600e3) await loadCodes();
+  const data=await getJSON(`/tpc/${tpcCodes.join(",")}`);
+  const now=Date.now(), J={};
   for(const stop of Object.values(data)) for(const p of Object.values(stop?.Passes||{})){
-    const ln=String(p.LinePublicNumber??p.LinePlanningNumber), L=LINES[ln]; if(!L) continue;
-    const i=matchIdx(p.TimingPointName,L.seq); if(i<0) continue;
+    const ln=String(p.LinePublicNumber??p.LinePlanningNumber); if(!LINES[ln]) continue;
     const key=`${ln}_${p.OperationDate}_${p.JourneyNumber}`;
     const j=(J[key]??={ln,dest:p.DestinationName50||"",ld:String(p.LineDirection),stops:[]});
-    if(j.stops.some(s=>s.o===+p.UserStopOrderNumber)) continue;
-    j.stops.push({o:+p.UserStopOrderNumber,i,name:p.TimingPointName,arr:T(p.ExpectedArrivalTime),dep:T(p.ExpectedDepartureTime),st:p.TripStopStatus});
+    j.stops.push({o:+p.UserStopOrderNumber,name:p.TimingPointName,arr:T(p.ExpectedArrivalTime),dep:T(p.ExpectedDepartureTime),st:p.TripStopStatus,first:p.JourneyStopType==="FIRST"});
   }
-  for(const j of Object.values(J)) j.stops.sort((a,b)=>a.o-b.o);
-  return Object.values(J);
-}
-const avg=(old,v)=>old==null?v:old*.7+v*.3;
-function learn(js){  // run and dwell times from a full poll (consecutive stops of one journey)
-  for(const j of js) for(let k=0;k+1<j.stops.length;k++){
-    const a=j.stops[k], b=j.stops[k+1]; if(b.o!==a.o+1) continue;
-    const dir=Math.sign(b.i-a.i); if(!dir||Math.abs(b.i-a.i)!==1) continue;
-    const r=(RT[`${j.ln}|${a.i}|${dir}`]??={});
-    const run=b.arr-a.dep, dwell=a.dep-a.arr;
-    if(run>=20e3&&run<=10*60e3) r.run=avg(r.run,run);
-    if(dwell>=0&&dwell<=3*60e3) r.dwell=avg(r.dwell,dwell);
+  const out=[];
+  for(const j of Object.values(J)){
+    const L=LINES[j.ln];
+    j.stops.sort((a,b)=>a.o-b.o);
+    // first stop the metro has not left yet
+    const s=j.stops.find(x=>x.st!=="PASSED" && x.st!=="CANCEL" && !(x.dep<now-5e3));
+    if(!s) continue;
+    const i=matchIdx(s.name,L.seq); if(i<0) continue;
+    const dir=direction(j.ln,i,j.dest,j.ld);
+    let phase;
+    if(s.first||s.o===1){ if(!(s.dep-now<=3*60e3)) continue; phase="at"; }        // waiting at the terminus
+    else if(s.st==="ARRIVED"||s.arr<=now) phase="at";                                 // standing at the platform
+    else { if(s.arr-now>6*60e3) continue; phase="to"; }                              // driving to this stop
+    out.push({line:j.ln,idx:i,dir,phase,dest:j.dest||ST[L.seq[dir>0?L.seq.length-1:0]].n,eta:phase==="to"?s.arr:s.dep,stop:s.name});
   }
-}
-function place(j,now){
-  const L=LINES[j.ln];
-  const s=j.stops.find(x=>x.st!=="PASSED"&&x.st!=="CANCEL"&&!(x.dep<now-5e3));
-  if(!s) return null;
-  const dir=direction(j.ln,s.i,j.dest,j.ld);
-  const base={line:j.ln,dir,dest:j.dest||ST[L.seq[dir>0?L.seq.length-1:0]].n};
-  if(s.o<=1) return s.dep-now<=3*60e3 ? {...base,idx:s.i,phase:"at",eta:s.dep} : null;   // waiting at the terminus
-  if(s.st==="ARRIVED"||s.arr<=now) return {...base,idx:s.i,phase:"at",eta:s.dep};      // at the platform
-  // walk back from the next known stop with the learned run/dwell times
-  let t=s.arr, k=s.i, o=s.o;
-  for(;;){
-    const p=k-dir;
-    if(o<=1||p<0||p>=L.seq.length) return t-now<=3*60e3?{...base,idx:k,phase:o<=1?"at":"to",eta:t}:null;
-    const rt=RT[`${j.ln}|${p}|${dir}`]||{}, run=rt.run??DEF_RUN, dwell=rt.dwell??DEF_DWELL;
-    const depP=t-run;
-    if(depP<=now) return {...base,idx:k,phase:"to",eta:t};                              // between p and k
-    if(depP-dwell<=now) return {...base,idx:p,phase:"at",eta:depP};                      // at p
-    t=depP-dwell; k=p; o--;
-  }
-}
-async function fetchLive(){
-  if(!net) await loadNetwork();
-  const full=Date.now()-lastFull>FULL_EVERY;
-  const data=await getJSON(`/tpc/${(full?net.all:net.lean).join(",")}`);
-  const js=journeys(data);
-  if(full){ learn(js); lastFull=Date.now(); }
-  lastKind=full?"alle haltes":`${net.lean.length} van ${net.all.length} haltes`;
-  const now=Date.now();
-  return js.map(j=>place(j,now)).filter(Boolean);
+  return out;
 }
 
 /* ---- Simulation (for testing without data, e.g. at night) ---- */
@@ -399,7 +356,7 @@ async function refresh(){
   if(mode==="sim"){ trains=simulate(); render(); setStatus("warn","Simulatie","Verzonnen dienstregeling, geen echte data"); return; }
   try{
     trains=await fetchLive(); lastOk=Date.now(); render();
-    if(trains.length) setStatus("ok","Live",`${trains.length} metro's · ${hhmm(lastOk)} · ${lastKind}${lastBytes?` · ${(lastBytes/1024).toFixed(1)} kB`:""}`);
+    if(trains.length) setStatus("ok","Live",`${trains.length} metro's · ${hhmm(lastOk)}${lastBytes?` · ${(lastBytes/1024).toFixed(1)} kB per update`:""}`);
     else setStatus("warn","Live, geen metro's","Er rijdt nu niets (nacht?) of OVapi geeft geen posities. Probeer Simulatie.");
   }catch(e){
     console.error(e);

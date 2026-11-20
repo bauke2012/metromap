@@ -18,7 +18,7 @@ telefoon (zelfde wifi). Alleen de Python-standaardbibliotheek is nodig.
 
 De server is nodig omdat OVapi geen CORS-header meestuurt (de browser mag de data
 niet rechtstreeks ophalen) en het HTTPS-certificaat van `v0.ovapi.nl` niet klopt.
-De server haalt de data via `http://v0.ovapi.nl` op en cachet die 10 seconden.
+De server haalt de data via `http://v0.ovapi.nl` op (gzip, ongeveer 16 kB per update in plaats van 340 kB) en cachet die 10 seconden.
 
 ## Hoe het werkt
 
@@ -30,6 +30,10 @@ De server haalt de data via `http://v0.ovapi.nl` op en cachet die 10 seconden.
    er naartoe rijdt.
 4. Elk station heeft twee LEDs, één per rijrichting: de LED rechts van de rijrichting
    hoort bij die richting.
+
+Minder haltes opvragen maakt het niet kleiner: OVapi geeft per `/tpc`-aanvraag maximaal 300
+passages terug, verdeeld over de gevraagde haltes. Met minder haltes krijg je alleen een
+langer tijdvenster per halte. Daarom worden steeds alle haltes opgevraagd.
 
 `/line/.../Actuals` is niet bruikbaar: voor de GVB-metro staan daar vrijwel alleen
 ritten die nog moeten vertrekken.
