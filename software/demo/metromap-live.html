@@ -163,6 +163,12 @@ document.getElementById("board").appendChild(svg);
 const defs=el("defs",{},svg);
 const glow=el("filter",{id:"glow",x:"-100%",y:"-100%",width:"300%",height:"300%"},defs);
 el("feGaussianBlur",{stdDeviation:"1.1"},glow);
+const pkg=el("g",{id:"ledpkg"},defs);
+el("rect",{x:-1,y:-1,width:2,height:2,rx:.12,fill:"#a9a493",stroke:"#7e796b","stroke-width":.06},pkg);       // epoxy body
+for(const [px,py] of [[-1,-1],[.45,-1],[-1,.45],[.45,.45]]) el("rect",{x:px+.08,y:py+.08,width:.47,height:.47,rx:.05,fill:"#b89a55",opacity:.75},pkg); // corner pads
+el("rect",{x:-.32,y:-.06,width:.64,height:.5,rx:.04,fill:"#56524a"},pkg);                                       // driver IC
+for(const [dx,c] of [[-.34,"#7a5450"],[0,"#4f6a52"],[.34,"#4c5470"]]) el("rect",{x:dx-.1,y:-.42,width:.2,height:.2,fill:c},pkg); // R G B dies
+el("rect",{x:-.95,y:-.95,width:1.9,height:1.9,rx:.12,fill:"#e7e2d2",opacity:.28},pkg);                       // milky lens
 const clip=el("clipPath",{id:"bclip"},defs);
 el("rect",{x:0,y:0,width:100,height:100,rx:6},clip);
 const gBoard=el("g",{},svg);
@@ -185,10 +191,14 @@ const gLed=el("g",{},svg);
 const ledEls=LED.map(([x,y],i)=>{
   const g=el("g",{class:"led","data-i":i,tabindex:0},gLed);
   el("circle",{cx:x,cy:y,r:2.2,fill:"transparent"},g);            // tap target
-  el("rect",{x:x-1,y:y-1,width:2,height:2,rx:.25,fill:"#e9e6dc"},g); // 2020 package
-  const die=el("circle",{cx:x,cy:y,r:.62,fill:"#cfc9b8"},g);
+  // SK6812-EC20: 2x2 mm, semi-transparent grey epoxy over a gold lead frame,
+  // driver IC and three small R/G/B dies visible through the lens
+  g.appendChild(document.createElementNS(SVGNS,"use")).setAttribute("href","#ledpkg");
+  g.lastChild.setAttribute("x",x); g.lastChild.setAttribute("y",y);
+  const lens=el("rect",{x:x-.92,y:y-.92,width:1.84,height:1.84,rx:.14,opacity:0},g); // lit epoxy
+  const hot=el("circle",{cx:x,cy:y,r:.45,fill:"#fff",opacity:0},g);                // bright centre
   const halo=el("circle",{cx:x,cy:y,r:1.9,fill:"none",opacity:0},gGlow);
-  return {die,halo};
+  return {lens,hot,halo};
 });
 function applyMask(name){
   const m=MASKS[name]||MASKS.blue;
@@ -313,14 +323,16 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",
 let tick=0;
 function draw(){
   ledTrains.forEach((list,i)=>{
-    const {die,halo}=ledEls[i];
-    if(!list.length){die.setAttribute("fill","#cfc9b8");halo.setAttribute("opacity",0);return;}
+    const {lens,hot,halo}=ledEls[i];
+    if(!list.length){lens.setAttribute("opacity",0);hot.setAttribute("opacity",0);halo.setAttribute("opacity",0);return;}
     const t=list[Math.floor(tick/2)%list.length];
     const c=LINES[t.line].c;
     const pulse=t.phase==="to"?(.35+.2*Math.sin(Date.now()/350)):1;
-    die.setAttribute("fill",c); halo.setAttribute("fill",c);
-    halo.setAttribute("opacity",(bright*pulse).toFixed(2));
-    die.setAttribute("opacity",(.55+.45*bright*pulse).toFixed(2));
+    const k=bright*pulse;
+    lens.setAttribute("fill",c); halo.setAttribute("fill",c);
+    lens.setAttribute("opacity",(.35+.6*k).toFixed(2));
+    hot.setAttribute("opacity",(.55*k).toFixed(2));
+    halo.setAttribute("opacity",k.toFixed(2));
   });
 }
 setInterval(()=>{tick++;},1000);
