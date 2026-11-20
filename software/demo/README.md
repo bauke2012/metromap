@@ -5,6 +5,10 @@ posities van de GVB-metro's. Draait op pc en telefoon.
 
 ## Starten
 
+Op Windows: dubbelklik `software/demo/start-metromap.bat`. Die start de server en opent de pagina.
+
+Of vanuit een terminal:
+
 ```sh
 python3 software/demo/server.py
 ```
