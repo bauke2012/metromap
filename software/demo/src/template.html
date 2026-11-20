@@ -42,6 +42,7 @@ h1 small{display:block;font:500 12px/1.4 var(--f-body);color:var(--muted);letter
 label.ctl{display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:13px}
 select,input[type=range]{font:inherit;color:var(--fg);background:#0f131a;border:1px solid var(--line);border-radius:6px;padding:4px 6px}
 input[type=range]{padding:0;accent-color:#9fb4ff;width:140px}
+input[type=checkbox]{width:18px;height:18px;accent-color:#9fb4ff;margin:0}
 .seg{display:inline-flex;border:1px solid var(--line);border-radius:7px;overflow:hidden}
 .seg button{font:inherit;font-size:13px;background:transparent;color:var(--muted);border:0;padding:5px 12px;cursor:pointer}
 .seg button[aria-pressed=true]{background:#263044;color:var(--fg)}
@@ -70,6 +71,7 @@ input[type=range]{padding:0;accent-color:#9fb4ff;width:140px}
     <div class="card" style="display:flex;flex-direction:column;gap:10px">
       <label class="ctl">Bron <span class="seg" role="group" aria-label="Databron"><button id="mLive" aria-pressed="true">Live</button><button id="mSim" aria-pressed="false">Simulatie</button></span></label>
       <label class="ctl" for="mask">Soldermasker <select id="mask"><option value="blue">Blauw</option><option value="green">Groen</option><option value="purple">Paars</option><option value="black">Mat zwart</option><option value="white">Wit</option></select></label>
+      <label class="ctl" for="names">Stationsnamen <input id="names" type="checkbox" checked></label>
       <label class="ctl" for="bright">Helderheid <input id="bright" type="range" min="15" max="100" value="80"></label>
     </div>
     <div class="card trains"><table><tbody id="tlist"></tbody></table></div>
@@ -181,7 +183,7 @@ const gText=el("g",{},gArt);
 for(const t of BOARD.labels){
   const lines=t.t.split("\n"), fs=t.s*1.36, lh=t.s*1.62;
   const anchor=t.j.includes("left")?"start":t.j.includes("right")?"end":"middle";
-  const tx=el("text",{x:t.x,y:t.y,"font-size":fs,"text-anchor":anchor,"font-family":"Righteous, system-ui, sans-serif",class:t.cu?"cu":"silk"},gText);
+  const tx=el("text",{x:t.x,y:t.y,"font-size":fs,"text-anchor":anchor,"font-family":"Righteous, system-ui, sans-serif",class:t.cu?"cu":(t.s<=1.2?"silk stn":"silk")},gText);
   lines.forEach((s,i)=>{const sp=el("tspan",{x:t.x,y:t.y-(lines.length-1-i)*lh},tx);sp.textContent=s;});
 }
 for(const [x,y] of BOARD.holes){el("circle",{cx:x,cy:y,r:1.9,fill:"#0c0f14"},gBoard);el("circle",{cx:x,cy:y,r:2.6,fill:"none","stroke-width":.5,class:"ring"},gBoard);}
@@ -368,6 +370,11 @@ try{ maskSel.value=localStorage.getItem("mm-mask")||"blue"; }catch{}
 maskSel.onchange=()=>{applyMask(maskSel.value);try{localStorage.setItem("mm-mask",maskSel.value)}catch{}};
 applyMask(maskSel.value);
 document.getElementById("bright").oninput=e=>{bright=e.target.value/100;};
+const namesBox=document.getElementById("names");
+function showNames(on){ gText.querySelectorAll("text.stn").forEach(t=>t.style.display=on?"":"none"); }
+try{ namesBox.checked=localStorage.getItem("mm-names")!=="0"; }catch{}
+showNames(namesBox.checked);
+namesBox.onchange=()=>{showNames(namesBox.checked);try{localStorage.setItem("mm-names",namesBox.checked?"1":"0")}catch{}};
 
 /* tooltip */
 const tip=document.getElementById("tip");
